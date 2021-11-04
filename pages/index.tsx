@@ -1,27 +1,20 @@
 import Skeleton from 'react-loading-skeleton'
-
-import Entries from '@/components/entries'
-import AwardPage from '@/components/awards'
 import Headset from '../components/Headset'
-import Mainpage from '../components/Mainpage'
+import Navbar from '@/components/navbar'
+import AwardPage from '@/components/awards'
+import Banner from '@/components/banner'
+import Quote from '@/components/quote'
+import Education from '@/components/education'
+import Github from '@/components/github'
+import Medium from '@/components/medium'
+import Journey from '@/components/journey'
+import Recommendation from '@/components/recommend'
+import Footer from '@/components/footer'
 import Corejs from '../components/Corejs'
-import Banner2 from '../components/Banner2'
-import BannerCop from '../components/BannerCop'
-import Footer from '../components/Footer'
-import Education from '../components/Education'
-import Quote from '../components/Quote'
-import Github from '../components/Github'
-import Medium from '../components/Medium'
-import Journey from '../components/Journey'
-import Recommendation from '../components/Recommendation'
-
-
-
-import { useEntries , useAwards } from '@/lib/swr-hooks'
+import { useAwards } from '@/lib/swr-hooks'
 
 export default function IndexPage() {
-  const { entries, isLoading } = useEntries()
-  const { awards } = useAwards()
+  const { awards , isLoading} = useAwards()
 
   if (isLoading) {
     return (
@@ -36,39 +29,20 @@ export default function IndexPage() {
     <div>
       <Headset />
       <body className="index-page" style={{backgroundColor:"#f3f4f6"}}>
-        <Mainpage />
-        
-        <Banner2 />
-
+        <Navbar />
+        <Banner />
         <div className="contrainer-fluid page-gin-top">
-         
               <Quote />
               <Education />
-       
               <Github/>
               <Medium/>
               <Journey/>
               <AwardPage awards={awards} />
-           
-
-  
-              <Recommendation/>
-
-                
-        
-           
-              
-              
-             
+              <Recommendation/>    
         </div>
-     
         <Footer />
         <Corejs />
-        
       </body>
- 
-
-      
     </div>
   )
 }
