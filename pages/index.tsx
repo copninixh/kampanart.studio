@@ -19,7 +19,7 @@ export default function IndexPage() {
   if (isLoading) {
     return (
       <div>
-
+          <p className="text-center">Loading ...........</p>
 
       </div>
     )
