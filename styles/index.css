@@ -1,18 +1,174 @@
-@tailwind base;
+/* body{
+    background: rgb(240,135,227);
+    background: linear-gradient(90deg, rgba(240,135,227,1) 0%, rgba(246,98,134,1) 100%);
+} */
+/* body{
+    background:linear-gradient(111.94deg,#ffeb3b 0%,#e91e63 65%,#673ab7 100%);
+} */
+.container-fluid{
+  max-width: 95%;
+}
+.bg{
+  background-color: #0F1624 !important;
+  color:white !important;
+}
+.box{
+  background-color: #0F1624;
+  border-radius: 15px;
+  border: solid black 3px;
+}
+.box-comment{
+  background-color: #0F1624;
+  border-radius: 30px;
+  height: 54px;
+  
+}
+.f1{
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
+}
+p,h6,h5,h4,h3,h2,h1{
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
+}
+#circle-1 {
+  background: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+#circle-2 {
+  background: yellow;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+#circle-3 {
+  background: green;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.bg-banner{
+  background:linear-gradient(111.94deg,#ffeb3b 0%,#e91e63 65%,#673ab7 100%);
+}
+.shadow-nav{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.shadow-page{
+  box-shadow: 0 0px 100px 0px rgb(0 0 0 / 20%), 0 0px 10px 0 rgb(0 0 0 / 19%) !important;
+}
+.fw-800{
+  font-weight: 800;
+}
+.f-15{
+  font-size: 13px !important;
+}
+.hori-timeline .events {
+  border-top: 3px solid #e9ecef;
+}
+.hori-timeline .events .event-list {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+  margin-right: 0;
+}
+.hori-timeline .events .event-list:before {
+  content: "";
+  position: absolute;
+  height: 36px;
+  border-right: 2px dashed #dee2e6;
+  top: 0;
+}
+.hori-timeline .events .event-list .event-date {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+  width: 75px;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+@media (min-width: 1140px) {
+  .hori-timeline .events .event-list {
+      display: inline-block;
+      width: 24%;
+      padding-top: 45px;
+  }
+  .hori-timeline .events .event-list .event-date {
+      top: -12px;
+  }
+}
+.bg-soft-primary {
+  background-color: rgba(64,144,203,.3)!important;
+}
+.bg-soft-success {
+  background-color: rgba(71,189,154,.3)!important;
+}
+.bg-soft-danger {
+  background-color: rgba(231,76,94,.3)!important;
+}
+.bg-soft-warning {
+  background-color: rgba(249,213,112,.3)!important;
+}
+.card {
+  border: none;
+  margin-bottom: 24px;
+  -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+  box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+}
+.s-hr{
+  width: 70px;
+  height: 5px !important;
+  opacity: unset !important;
+  border-radius: 3px;
+}
+.s-hr2{
 
-/* Write your own custom base styles here */
+  height: 5px !important;
+  opacity: unset !important;
+  border-radius: 3px;
+}
+.s-hr-color{
+  background:linear-gradient(111.94deg,#ffeb3b 0%,#e91e63 65%,#673ab7 100%);
+  
+}
+form{
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
+  font-size: 15px;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
 
-/* Start purging... */
-@tailwind components;
-/* Stop purging. */
-
-/* Write your own custom component styles here */
-.btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+button{
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
+  font-size: 16px !important;
+}
+label{
+  font-size: 16px !important;
+}
+.page-gin-top{
+  margin-top: -40px;
+}
+.bg-404{
+  background-color: #fc9842;
+  background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+}
+.accordion-button:not(.collapsed) {
+  color: white !important;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) !important;
 }
 
-/* Start purging... */
-@tailwind utilities;
-/* Stop purging. */
+.login-s1 {
+  color: white !important;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) !important;
+}
 
-/* Your own custom utilities */
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #e1e1e1 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) !important;
+}
+.img-border{
+  border: 4px solid white;
+}

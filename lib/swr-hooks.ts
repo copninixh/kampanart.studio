@@ -5,7 +5,7 @@ function fetcher(url: string) {
 }
 
 export function useEntries() {
-  const { data, error } = useSWR(`/api/get-entries`, fetcher)
+  const { data, error } = useSWR(`/api/get-awards`, fetcher)
 
   return {
     entries: data,
@@ -15,5 +15,20 @@ export function useEntries() {
 }
 
 export function useEntry(id: string) {
-  return useSWR(`/api/get-entry?id=${id}`, fetcher)
+  return useSWR(`/api/get-awarding?id=${id}`, fetcher)
 }
+
+export function useAwards() {
+  const { data, error } = useSWR(`/api/get-awards`, fetcher)
+
+  return {
+    awards: data,
+    isLoading: !error && !data,
+    isError: error,
+  }
+}
+
+export function useAwarding(id: string) {
+  return useSWR(`/api/get-awarding?id=${id}`, fetcher)
+}
+
