@@ -18,7 +18,7 @@ export default function Banner() {
             showCursor:true,
             backDelay: 1500,
             backSpeed:60,
-            strings: ["Developer.", "Student.", "YRC."],
+            strings: ["Developer", "Student", "#Dek65" , "Computer Engineering"],
         });
     },[]);
 
