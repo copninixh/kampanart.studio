@@ -12,14 +12,22 @@ import Recommendation from '@/components/recommend'
 import Footer from '@/components/footer'
 import Corejs from '../components/Corejs'
 import { useAwards } from '@/lib/swr-hooks'
+import ReactLoading from 'react-loading';
+
 
 export default function IndexPage() {
   const { awards , isLoading} = useAwards()
 
   if (isLoading) {
+
     return (
       <div>
-          <p className="text-center">Loading ...........</p>
+
+        <body className="index-page" style={{backgroundColor:"#da5f8e"}}>
+          <div className="load-cen">
+            <ReactLoading type={'cylon'} color={'#fff'} height={120} width={120} className="load-cen" />
+          </div>
+        </body>
 
       </div>
     )
