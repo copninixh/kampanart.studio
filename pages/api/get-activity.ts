@@ -4,7 +4,7 @@ import { query } from '../../lib/db'
 const handler: NextApiHandler = async (_, res) => {
   try {
     const results = await query(`
-      SELECT * FROM awards
+      SELECT * FROM activity
       ORDER BY a_id ASC
       LIMIT 10
   `)

@@ -3,20 +3,22 @@ import Link from 'next/link'
 import { mutate } from 'swr'
 
 
-function Awarding({ a_id, a_name, a_awards }) {
+function Activities({ a_id, a_name, a_org }) {
 
 
   return (
     <div>
       <div className="flex items-center">
-        <Link href={`/awards/${a_id}`}>
+        <Link href={`/activities/${a_id}`}>
           <a className="font-bold py-2">{a_name}</a>
         </Link>
+        <div className="flex ml-4">
 
+        </div>
       </div>
-      <p>{a_awards}</p>
+      <p>{a_org}</p>
     </div>
   )
 }
 
-export default Awarding
+export default Activities

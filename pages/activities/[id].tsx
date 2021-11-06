@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import { useAwarding } from '@/lib/swr-hooks'
+import { useActivities } from '@/lib/swr-hooks'
 import ReactLoading from 'react-loading';
 import Headset from '../../components/Headset'
 import Corejs from '../../components/Corejs'
@@ -10,7 +10,7 @@ import Navbar from '@/components/navbar'
 export default function EditEntryPage() {
   const router = useRouter()
   const id = router.query.id?.toString()
-  const { data } = useAwarding(id)
+  const { data } = useActivities(id)
 
   if (data) {
     return (
@@ -28,7 +28,6 @@ export default function EditEntryPage() {
                     <img src={data.a_pic} className="img-fluid" />
                   </div>
                   <p>{data.a_detail}</p>
-                  <p>{data.a_awards}</p>
                 </div>
          
             </div>

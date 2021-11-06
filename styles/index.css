@@ -129,6 +129,13 @@ p,h6,h5,h4,h3,h2,h1{
   opacity: unset !important;
   border-radius: 3px;
 }
+
+.s-hr3{
+  width: 250px;
+  height: 5px !important;
+  opacity: unset !important;
+  border-radius: 3px;
+}
 .s-hr-color{
   background:linear-gradient(111.94deg,#ffeb3b 0%,#e91e63 65%,#673ab7 100%);
   
@@ -179,4 +186,7 @@ label{
   left: 0;
   right: 0;
   margin: auto;
+}
+.mt-20{
+  margin-top: 73px;
 }

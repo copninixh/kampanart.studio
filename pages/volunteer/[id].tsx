@@ -28,7 +28,6 @@ export default function EditEntryPage() {
                     <img src={data.a_pic} className="img-fluid" />
                   </div>
                   <p>{data.a_detail}</p>
-                  <p>{data.a_awards}</p>
                 </div>
          
             </div>
