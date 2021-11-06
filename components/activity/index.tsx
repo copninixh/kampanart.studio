@@ -11,7 +11,7 @@ function Activities({ activity }) {
             <div className="row">
               {activity.map((e) => (
                 <div className="col-xl-6">
-                  <a href="#" key={e.a_id}>
+                  <a href={`/activities/${e.a_id}`} key={e.a_id}>
                     <div className="card move-on-hover">
                       <img className="w-100" src={e.a_pic}  />
                     </div>
@@ -29,9 +29,9 @@ function Activities({ activity }) {
           </div>
           <div className="col-xl-3 mx-auto mt-md-0 mt-5">
               <div className="position-sticky" style={{top: '100px !important'}}>
-                <h4>เพราะชีวิตไม่ได้มีแค่<u>การเรียน</u> ความรู้ ประสบการณ์ นอกห้องเรียน ของ "กัมปนาท"</h4>
+                <h4>เพราะชีวิตไม่ได้มีแค่<u>การเรียน</u> ความรู้ ประสบการณ์ <br/>นอกห้องเรียน ของ <br/> "นายกัมปนาท ชัยมูลฐาน"</h4>
                 <h6 className="text-secondary font-weight-normal">ตลอดชีวิตมัธยมศึกษาตอนปลาย</h6>
-                <a href="#" className="btn btn-primary">ดูทั้งหมด <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" /></a>
+                <a href="all_activities" className="btn btn-primary">ดูทั้งหมด <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" /></a>
               </div>
 
 

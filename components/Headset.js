@@ -11,7 +11,7 @@ export default class Headset extends Component {
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
             <title>
-                Copninich 
+                Kampanart Chaimooltan Copninich 
             </title>
             
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />

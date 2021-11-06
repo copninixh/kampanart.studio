@@ -4,25 +4,47 @@ function Volun({ volunt }) {
   if (volunt) {
     return (
       <div>
-        <div className="container">
-          <div className="row">
-          <h3 className="text-center mt-5">Volunteer</h3>
-          {volunt.map((e) => (
-            <div className="col-xl-6">
-              <div className="card" key={e.v_id}>
-                <img src="" className="card-img-top"/>
-                <div className="card-body">
-                  <h5 className="card-title"><Volunteer v_id={e.v_id} v_name={e.v_name} v_org={e.v_org} /></h5>
-                  <p className="card-text"><Volunteer v_id={e.v_id} v_name={e.v_null} v_org={e.v_org} /></p>
-                  <a className="btn btn-primary">รายละเอียด</a>
-                </div>
+        <section className="py-7">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 mx-auto text-center">
+                <h2 className="mb-0">กิจกรรม</h2>
+                <h2 className="text-gradient text-primary mb-3">Volunteer จิตอาสา</h2>
+                <p className="lead"></p>
               </div>
-
             </div>
+            <div className="row mt-6">
+          {volunt.map((e) => (
+          
+          <div className="col-lg-4 col-md-8">
+            <div className="card card-plain">
+              <div className="card-body">
+                <div className="author">
+                  <div className="name">
+                    <a href={`/volunteer/${e.v_id}`}>
+                    <h6 className="mb-0 font-weight-bolder">{e.v_name}</h6>
+                    </a>
+                    <div className="stats">
+                      <i className="far fa-clock" aria-hidden="true" /> {e.v_year}
+                    </div>
+                  </div>
+                </div>
+                <p className="mt-4"></p>
+           
+              </div>
+            </div>
+          </div>
+          
+           
       
           ))}
+          </div>
+        
+ 
         </div>
-        </div>
+      </section>
+
+       
       </div>
     )
   } else {

@@ -12,7 +12,7 @@ const handler: NextApiHandler = async (req, res) => {
     }
     const results = await query(
       `
-      SELECT a_id, a_name, a_awards
+      SELECT *
       FROM awards
       WHERE a_id = ?
     `,

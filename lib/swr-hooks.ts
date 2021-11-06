@@ -21,11 +21,34 @@ export function useAwarding(id: string) {
 }
 
 //load data index
+export function useAwardsAll() {
+  const { data, error } = useSWR(`/api/get-awards-all`, fetcher)
+
+  return {
+    awardsall: data,
+    isLoading: !error && !data,
+    isError: error,
+  }
+}
+
+
+//load data index
 export function useActivty() {
   const { data, error } = useSWR(`/api/get-activity`, fetcher)
 
   return {
     activity: data,
+    isLoading: !error && !data,
+    isError: error,
+  }
+}
+
+//load data index
+export function useActivtyAll() {
+  const { data, error } = useSWR(`/api/get-activity-all`, fetcher)
+
+  return {
+    activityall: data,
     isLoading: !error && !data,
     isError: error,
   }
@@ -59,6 +82,17 @@ export function useCertificate() {
 
   return {
     cer: data,
+    isLoading: !error && !data,
+    isError: error,
+  }
+}
+
+//load data index
+export function useCertificateAll() {
+  const { data, error } = useSWR(`/api/get-certificate-all`, fetcher)
+
+  return {
+    cerall: data,
     isLoading: !error && !data,
     isError: error,
   }

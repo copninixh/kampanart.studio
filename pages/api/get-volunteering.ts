@@ -12,9 +12,9 @@ const handler: NextApiHandler = async (req, res) => {
     }
     const results = await query(
       `
-      SELECT v_id, v_name, v_org , v_year
-      FROM certificate
-      WHERE c_id = ?
+      SELECT *
+      FROM volunteer
+      WHERE v_id = ?
     `,
       id
     )

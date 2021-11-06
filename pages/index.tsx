@@ -11,7 +11,8 @@ import Quote from '@/components/quote'
 import Education from '@/components/education'
 import Github from '@/components/github'
 import Journey from '@/components/journey'
-import Recommendation from '@/components/recommend'
+import Selfdev from '@/components/SelfDevelopment'
+
 import Footer from '@/components/footer'
 import Corejs from '../components/Corejs'
 import { useAwards , useActivty , useCertificate , useVolunteer , useAppreciation} from '@/lib/swr-hooks'
@@ -57,6 +58,7 @@ export default function IndexPage() {
 
               
               <VolunteerPage volunt={volunt} />
+              <Selfdev/>
               
               
         </div>

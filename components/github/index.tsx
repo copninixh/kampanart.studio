@@ -24,7 +24,7 @@ export default function Github() {
                   <h4 className="card-title">Work</h4>
                   <hr className="s-hr s-hr-color mb-3" />
                   <div className="col-xl-12 col-md-6 mb-2">
-                      <div className="shadow none-border" >
+                      <div className="shadow none-border bg-white" >
                           <div className="card-body">
                               <div className="row">
                              
@@ -38,7 +38,7 @@ export default function Github() {
                   </div>
 
                   <div className="col-xl-12 col-md-6 mb-2">
-                      <div className="shadow none-border" >
+                      <div className="shadow none-border bg-white" >
                           <div className="card-body">
                               <div className="row">
                                 
@@ -52,7 +52,7 @@ export default function Github() {
                   </div>
 
                     <div className="col-xl-12 col-md-6 mb-2">
-                        <div className="shadow none-border" >
+                        <div className="shadow none-border bg-white" >
                             <div className="card-body">
                                 <div className="row">
                               

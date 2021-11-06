@@ -18,18 +18,29 @@ export default function EditEntryPage() {
         <Headset />
         <body className="index-page" style={{backgroundColor:"white"}}>
             <Navbar/>
-            <div className="contrainer mt-20">
-        
-                <div className="col-lg-12">
-                  <h3 className="text-center">{data.a_name}</h3>
+            <div>
+                <div className="container">
+                    <div className="row">
+                      <div className="col-xl-12 mt-20">
+                        <h3 className="text-center">{data.a_name}</h3>
 
-                  <div className="d-flex justify-content-center">
-                    <hr className="s-hr3 s-hr-color mb-5" />
-                    <img src={data.a_pic} className="img-fluid" />
-                  </div>
-                  <p>{data.a_detail}</p>
+                          <div className="d-flex justify-content-center">
+                            <hr className="s-hr3 s-hr-color mb-5" />
+                          </div>
+                          <div className="d-flex justify-content-center">
+                            <img src={data.a_pic} className="img-fluid w-xl-50" />
+                          </div>
+                          
+                        <p>{data.a_detail}</p>
+                
+                      </div>
+                        
+                        
+                        
+                    </div>
+                    
                 </div>
-         
+                       
             </div>
             <Footer />
             <Corejs />

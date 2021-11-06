@@ -1,16 +1,18 @@
 import { useRouter } from 'next/router'
-import { useVolunteering } from '@/lib/swr-hooks'
+import { useAppre } from '@/lib/swr-hooks'
 import ReactLoading from 'react-loading';
 import Headset from '../../components/Headset'
 import Corejs from '../../components/Corejs'
 import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
+import ReactDOM from 'react-dom';
 
 
 export default function EditEntryPage() {
   const router = useRouter()
   const id = router.query.id?.toString()
-  const { data } = useVolunteering(id)
+  const { data } = useAppre(id)
+
 
   if (data) {
     return (
@@ -22,17 +24,21 @@ export default function EditEntryPage() {
                 <div className="container">
                     <div className="row">
                       <div className="col-xl-12 mt-20">
-                        <h3 className="text-center">{data.v_name}</h3>
-
-                          <div className="d-flex justify-content-center">
-                            <hr className="s-hr3 s-hr-color mb-5" />
+                        <div className="row">
+                          <div className="col-xl-12 text-center">
+                            <img src={data.a_pic} className="img border-radius-lg rounded-circle img-fluid max-width-200" />
+                            <h4 className="mt-3 text-gradient text-primary ">{data.a_name}</h4>
+                            <h6>{data.a_status}</h6>
+                            <h6>{data.a_position}</h6>
                           </div>
-                          <div className="d-flex justify-content-center">
-                            <img src={data.v_pic} className="img-fluid w-xl-50" />
+                          <div className="col-xl-6">
+                            <img src={data.a_recommend} className="img-fluid " />
                           </div>
-                          
-                        <p>{data.v_detail}</p>
-                
+                          <div className="col-xl-6">
+                            <p className="mt-5 text-justify">{data.a_detail}</p>
+                          </div>
+                        </div>
+                        
                       </div>
                         
                         
@@ -42,6 +48,7 @@ export default function EditEntryPage() {
                 </div>
                        
             </div>
+
             <Footer />
             <Corejs />
         </body>

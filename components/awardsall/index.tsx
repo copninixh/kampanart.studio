@@ -1,7 +1,7 @@
-import Award from './awarding'
-function Awarding({ awards }) {
 
-  if (awards) {
+function AwardingAll({ awardsall }) {
+
+  if (awardsall) {
     return (
       <div>
         <div className="justify-content-center text-center">
@@ -17,8 +17,8 @@ function Awarding({ awards }) {
 
 
           
-          {awards.map((e) => (
-            <div className="col-xl-6">
+          {awardsall.map((e) => (
+            <div className="col-xl-4">
               <div className="card" key={e.a_id}>
                 <img src={e.a_pic} className="card-img-top"/>
                 <div className="card-body">
@@ -29,10 +29,6 @@ function Awarding({ awards }) {
               </div>
             </div>
           ))}
-
-          <div className="d-flex justify-content-center">
-            <a href="all_awards" className="btn btn-primary btn-rounded w-25">ดูทั้งหมด</a>
-          </div>
 
           
       
@@ -45,4 +41,4 @@ function Awarding({ awards }) {
   }
 }
 
-export default Awarding
+export default AwardingAll
