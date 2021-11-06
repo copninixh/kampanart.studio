@@ -27,7 +27,7 @@ function Certified ({ cer }) {
               <div className="card-body">
                 <div className="content-left text-start my-auto py-4">
                   <h2 className="card-title text-white">เกียรติบัตรเพิ่มเติม</h2>
-                  <p className="card-description text-white">Rather than worrying about switching offices every couple years, you stay in the same place.</p>
+                  <p className="card-description text-white"></p>
                   <a href="javascript:;" className="text-white text-sm icon-move-right">รายละเอียด
                     <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" />
                   </a>
