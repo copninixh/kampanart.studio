@@ -6,7 +6,7 @@ function Volun({ volunt }) {
       <div>
         <div className="container">
           <div className="row">
-          <h3 className="text-center">Volunteer</h3>
+          <h3 className="text-center mt-5">Volunteer</h3>
           {volunt.map((e) => (
             <div className="col-xl-6">
               <div className="card" key={e.v_id}>

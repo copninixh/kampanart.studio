@@ -69,3 +69,20 @@ export function useCerti(id: string) {
   return useSWR(`/api/get-certi?id=${id}`, fetcher)
 }
 
+//load data index
+export function useAppreciation () {
+  const { data, error } = useSWR(`/api/get-appreciation `, fetcher)
+
+  return {
+    appre: data,
+    isLoading: !error && !data,
+    isError: error,
+  }
+}
+
+// load data get id page
+export function useAppre(id: string) {
+  return useSWR(`/api/get-appre?id=${id}`, fetcher)
+}
+
+

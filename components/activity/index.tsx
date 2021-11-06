@@ -6,21 +6,35 @@ function Activities({ activity }) {
       <div>
         <div className="container">
           <div className="row">
-          <h3 className="text-center">Activity 🏆</h3>
-          {activity.map((e) => (
-            <div className="col-xl-6">
-              <div className="card" key={e.a_id}>
-                <img src="" className="card-img-top"/>
-                <div className="card-body">
-                  <h5 className="card-title"><Activity a_id={e.a_id} a_name={e.a_name} a_org={e.a_null} /></h5>
-                  <p className="card-text"><Activity a_id={e.a_id} a_name={e.a_null} a_org={e.a_org} /></p>
-                  <a className="btn btn-primary">รายละเอียด</a>
+          <h3 className="text-center mt-5 mb-5">Activity 🏆</h3>
+          <div className="col-xl-8">
+            <div className="row">
+              {activity.map((e) => (
+                <div className="col-xl-6">
+                  <a href="./pages/about-us.html" key={e.a_id}>
+                    <div className="card move-on-hover">
+                      <img className="w-100" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/assets/img/about-us.jpg" alt="aboutus" />
+                    </div>
+                    <div className="mt-2 ms-2">
+                      <h6 className="mb-0">{e.a_name}</h6>
+                    </div>
+                  </a>
+
+
+
                 </div>
+          
+              ))}
+            </div>
+          </div>
+          <div className="col-xl-3 mx-auto mt-md-0 mt-5">
+              <div className="position-sticky" style={{top: '100px !important'}}>
+                <h4>Presentation Pages for Company, Sign In Page, Author and Contact</h4>
+                <h6 className="text-secondary font-weight-normal">These is just a small selection of the multiple possibitilies you have. Focus on the business, not on the design.</h6>
               </div>
 
-            </div>
-      
-          ))}
+
+          </div>
         </div>
         </div>
       </div>

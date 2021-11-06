@@ -2,14 +2,13 @@ import {Component} from 'react'
 import Script from 'next/script'
 
 export default class Corejs extends Component {
+    
     render (){
         return(
             <div>
-            
                 <Script src="../assets/js/core/popper.min.js" type="text/javaScript"></Script >
                 <Script src="../assets/js/core/bootstrap.min.js" type="text/javaScript"></Script >
                 <Script src="../assets/js/plugins/perfect-scrollbar.min.js"></Script >
-               
                 <Script src="../assets/js/plugins/countup.min.js"></Script >
                 <Script src="../assets/js/plugins/choices.min.js"></Script >
                 <Script src="../assets/js/plugins/prism.min.js"></Script >
@@ -25,8 +24,7 @@ export default class Corejs extends Component {
                
 
                 <Script src="../assets/js/soft-design-system.min.js?v=1.0.5" type="text/javascript"></Script >
-                <Script src="/node_modules/jquery/dist/jquery.js"></Script>
-                <Script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></Script>
+
               
            
             </div>

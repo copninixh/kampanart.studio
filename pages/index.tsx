@@ -4,6 +4,7 @@ import Navbar from '@/components/navbar'
 import AwardPage from '@/components/awards'
 import ActivityPage from '@/components/activity'
 import CertificatePage from '@/components/certificate'
+import AppreciationPage from '@/components/appreciation'
 import VolunteerPage from '@/components/volunteer'
 import Banner from '@/components/banner'
 import Quote from '@/components/quote'
@@ -13,7 +14,7 @@ import Journey from '@/components/journey'
 import Recommendation from '@/components/recommend'
 import Footer from '@/components/footer'
 import Corejs from '../components/Corejs'
-import { useAwards , useActivty , useCertificate , useVolunteer} from '@/lib/swr-hooks'
+import { useAwards , useActivty , useCertificate , useVolunteer , useAppreciation} from '@/lib/swr-hooks'
 import ReactLoading from 'react-loading';
 
 
@@ -22,6 +23,7 @@ export default function IndexPage() {
   const { activity } = useActivty()
   const { cer } = useCertificate()
   const { volunt } =  useVolunteer()
+  const { appre } = useAppreciation()
 
   if (isLoading) {
 
@@ -46,16 +48,17 @@ export default function IndexPage() {
               <Quote />
               <Education />
               <Github/>
-          
+              <AppreciationPage appre={appre} />
               <Journey/>
               <AwardPage awards={awards} />
-
+              <CertificatePage cer={cer} />
+              
               <ActivityPage activity={activity} />
 
-              <CertificatePage cer={cer} />
+              
               <VolunteerPage volunt={volunt} />
               
-              <Recommendation/>    
+              
         </div>
         <Footer />
         <Corejs />
