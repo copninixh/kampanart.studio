@@ -3,7 +3,7 @@ import Activity from './act'
 function Activities({ activity }) {
   if (activity) {
     return (
-      <div>
+      <div className="animate__animated animate__fadeIn">
         <div className="container">
           <div className="row">
           <h3 className="text-center mt-5 mb-5">Activity กิจกรรม</h3>

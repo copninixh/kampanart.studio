@@ -5,10 +5,10 @@ export default class Quote extends Component {
     render (){
         return(
             <div>
-                <section className="my-5 py-5">
+                <section className="my-5 py-5 mt-0">
                 <div className="container">
                     <div className="row align-items-center">
-                    <div className="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">
+                    <div className="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4 animate__animated animate__fadeInLeft">
                         <div className="rotating-card-container">
                         <div className="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-4">
                             <div className="front front-background">
@@ -25,7 +25,7 @@ export default class Quote extends Component {
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 ms-auto">
+                    <div className="col-lg-6 ms-auto animate__animated animate__fadeInRight">
                         <div className="row justify-content-start">
                         <div className="col-xl-12">
                             <p className="pe-3 text-justify mb-5" style={{fontSize:"17.5px"}}>
@@ -55,7 +55,7 @@ export default class Quote extends Component {
                             </div>
                         </div>
                         </div>
-                        <div className="row justify-content-start mt-5">
+                        <div className="row justify-content-start mt-xl-5">
                         <div className="col-md-6 mt-3">
                             <i className="fas fa-laptop-code fa-2x text-gradient text-primary"></i>
                             <h5 className="font-weight-bolder mt-3">ประสบการณ์การทำงาน</h5>

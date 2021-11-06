@@ -3,7 +3,7 @@ function Awarding({ awards }) {
 
   if (awards) {
     return (
-      <div>
+      <div className="animate__animated animate__zoomInDown">
         <div className="justify-content-center text-center">
             <div className="col-xl-12">
               <span className="badge bg-p mb-3">ผลงานและรางวัลเชิงวิชาการที่โดดเด่น</span>
@@ -23,15 +23,15 @@ function Awarding({ awards }) {
                 <img src={e.a_pic} className="card-img-top"/>
                 <div className="card-body">
                   <h5 className="card-title">{e.a_name}</h5>
-                  <p className="card-text">{e.a_awards}</p>
-                  <a href={`/awards/${e.a_id}`} className="btn btn-primary btn-rounded">รายละเอียด</a>
+                  <p className="card-text"><i className="fas fa-trophy"></i> {e.a_awards}</p>
+                  <a href={`/awards/${e.a_id}`} className="btn btn-primary">รายละเอียด</a>
                 </div>
               </div>
             </div>
           ))}
 
           <div className="d-flex justify-content-center">
-            <a href="all_awards" className="btn btn-primary btn-rounded w-25">ดูทั้งหมด</a>
+            <a href="all_awards" className="btn btn-primary w-25">ดูทั้งหมด</a>
           </div>
 
           

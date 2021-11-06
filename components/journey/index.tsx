@@ -7,7 +7,7 @@ export default class Journey extends Component {
             <div>
                 <div className="container">
                     <div className="row">
-                        <img className="img-fluid" src="../assets/img/cop/jour.png" />
+                        <img className="img-fluid animate__animated animate__zoomIn" src="../assets/img/cop/jour.png" />
                         
                         
                         

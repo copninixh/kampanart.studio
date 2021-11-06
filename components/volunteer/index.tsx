@@ -4,7 +4,7 @@ function Volun({ volunt }) {
   if (volunt) {
     return (
       <div>
-        <section className="py-7">
+        <section className="mt-5 animate__animated animate__fadeIn">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mx-auto text-center">

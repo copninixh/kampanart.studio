@@ -16,11 +16,14 @@ export default function EditEntryPage() {
     return (
       <div>
         <Headset />
-        <body className="index-page" style={{backgroundColor:"white"}}>
+        <body className="index-page" style={{backgroundColor:"#f3f4f6"}}>
             <Navbar/>
             <div>
-                <div className="container">
+
+
+                <div className="container-fluid">
                     <div className="row">
+                      
                       <div className="col-xl-12 mt-20">
                         <h3 className="text-center">{data.c_name}</h3>
 

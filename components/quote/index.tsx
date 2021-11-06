@@ -7,7 +7,7 @@ export default class Quote extends Component {
             <div>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-lg-12">
+                        <div className="col-lg-12 animate__animated animate__fadeInUp">
                             <div className="card" style={{boxShadow:"none"}}>
                                 <div className="card-body">
                                 

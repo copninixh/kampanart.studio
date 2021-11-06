@@ -8,7 +8,7 @@ export default class Education extends Component {
                 
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-12 mb-5">
+                        <div className="col-lg-12 mb-5 animate__animated animate__fadeIn">
                    
                             <img className="img-fluid mx-auto d-flex justify-content-center flex-column w-100" src="../assets/img/cop/copninich.jpg"  />
                             <h4 className="card-title mt-5" >Educaiton การศึกษา</h4>

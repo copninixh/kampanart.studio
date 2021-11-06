@@ -5,7 +5,7 @@ function Appreciation ({ appre }) {
     return (
       <div>
         <div className="container">
-          <div className="row">
+          <div className="row animate__animated animate__fadeInUp">
           <h3 className="text-center mt-5">Appreciation คำนิยม</h3>
           
            
@@ -25,7 +25,7 @@ function Appreciation ({ appre }) {
                             <p className="card-description mb-4">
                               {e.a_position} <br/> วิทยฐานะ : {e.a_expert}
                             </p>
-                            <a href={`/recommendation/${e.a_id}`} className="btn btn-primary btn-rounded f1 f-15">อ่านคำนิยม</a>
+                            <a href={`/recommendation/${e.a_id}`} className="btn btn-primary f1 f-15">อ่านคำนิยม</a>
                             
                         </div>
                     </div>

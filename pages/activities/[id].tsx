@@ -16,27 +16,31 @@ export default function EditEntryPage() {
     return (
       <div>
         <Headset />
-        <body className="index-page" style={{backgroundColor:"white"}}>
+        <body className="index-page" style={{backgroundColor:"#f3f4f6"}}>
             <Navbar/>
             <div>
+              <div className="py-sm-7 py-5 bg-banner min-vh-50">
                 <div className="container">
                     <div className="row">
-                      <div className="col-xl-12 mt-20">
-                        <h3 className="text-center">{data.a_name}</h3>
+                        <div className="col-12 mx-auto mt-4">
+                            <div className="row py-lg-4 py-5 mt-5 text-center">
+                              <h6 className="text-white">กิจกรรม </h6>
+                              <h2 className="text-white">{data.a_name}</h2>
+                              <h6 className="text-white"><i className="fas fa-user text-white"></i>&nbsp;{data.a_org}</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
 
-                          <div className="d-flex justify-content-center">
-                            <hr className="s-hr3 s-hr-color mb-5" />
+                <div className="container">
+                    <div className="row">
+                      <div className="col-xl-12 bg-white" style={{minHeight:"100vh"}}>
+                          <div className="d-flex justify-content-center" style={{marginTop:"-90px"}}>
+                            <img src={data.a_pic} className="img-fluid w-xl-75" />
                           </div>
-                          <div className="d-flex justify-content-center">
-                            <img src={data.a_pic} className="img-fluid w-xl-50" />
-                          </div>
-                          
-                        <p>{data.a_detail}</p>
-                
-                      </div>
-                        
-                        
-                        
+                          <p className="mt-5">{data.a_detail}</p>
+                      </div>    
                     </div>
                     
                 </div>

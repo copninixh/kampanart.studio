@@ -32,10 +32,10 @@ export default function EditEntryPage() {
                             <h6>{data.a_position}</h6>
                           </div>
                           <div className="col-xl-6">
-                            <img src={data.a_recommend} className="img-fluid " />
+                            <img src={data.a_recommend} className="img-fluid w-100" />
                           </div>
-                          <div className="col-xl-6">
-                            <p className="mt-5 text-justify">{data.a_detail}</p>
+                          <div className="col-xl-6 mt-xl-5">
+                            <p className="text-justify mt-xl-5">{data.a_detail}</p>
                           </div>
                         </div>
                         

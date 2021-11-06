@@ -11,7 +11,7 @@ function Certified ({ cerall }) {
                 <img src={e.c_pic} className="card-img-top"/>
                 <div className="card-body">
                   <h5 className="card-title">{e.c_name}</h5>
-                  <p className="card-text">{e.c_org}</p>
+                  <p className="card-text">จัดโดย : {e.c_org}</p>
                   <a href={`/certificate/${e.c_id}`} className="btn btn-primary">รายละเอียด</a>
                 </div>
               </div>

@@ -3,7 +3,7 @@ import Certificate from './cer'
 function Certified ({ cer }) {
   if (cer) {
     return (
-      <div>
+      <div className="animate__animated animate__fadeIn">
         <div className="container">
           <div className="row">
           <h3 className="text-center mt-5 mb-5">Certificate เกียรติบัตร</h3>
@@ -12,8 +12,8 @@ function Certified ({ cer }) {
               <div className="card" key={e.c_id}>
                 <img src={e.c_pic} className="card-img-top"/>
                 <div className="card-body">
-                  <h5 className="card-title"><Certificate c_id={e.c_id} c_name={e.c_name} c_org={e.c_null} /></h5>
-                  <p className="card-text"><Certificate c_id={e.c_id} c_name={e.c_null} c_org={e.c_org} /></p>
+                  <h5 className="card-title">{e.c_name}</h5>
+                  <p className="card-text">จัดโดย :  {e.c_org}</p>
                   <a href={`/certificate/${e.c_id}`} className="btn btn-primary">รายละเอียด</a>
                 </div>
               </div>
