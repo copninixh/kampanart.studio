@@ -20,10 +20,10 @@ export default function Github() {
         <div>
             <div className="container">
               <div className="row">
-                <div className="col-xl-6 animate__animated animate__fadeInLeft">
+                <div className="col-xl-6 col-lg-6 animate__animated animate__fadeInLeft">
                   <h4 className="card-title">Work</h4>
                   <hr className="s-hr s-hr-color mb-3" />
-                  <div className="col-xl-12 col-md-6 mb-2">
+                  <div className="col-xl-12  mb-2">
                       <div className="shadow none-border bg-white" >
                           <div className="card-body">
                               <div className="row">
@@ -37,7 +37,7 @@ export default function Github() {
                       </div>
                   </div>
 
-                  <div className="col-xl-12 col-md-6 mb-2">
+                  <div className="col-xl-12 mb-2">
                       <div className="shadow none-border bg-white" >
                           <div className="card-body">
                               <div className="row">
@@ -51,7 +51,7 @@ export default function Github() {
                       </div>
                   </div>
 
-                    <div className="col-xl-12 col-md-6 mb-2">
+                    <div className="col-xl-12 mb-5">
                         <div className="shadow none-border bg-white" >
                             <div className="card-body">
                                 <div className="row">
@@ -65,7 +65,7 @@ export default function Github() {
                         </div>
                     </div>
                 </div>
-                <div className="col-xl-6 animate__animated animate__fadeInRight">
+                <div className="col-xl-6 col-lg-6 animate__animated animate__fadeInRight">
                   <h4 className="card-title" >Github contributor</h4>
                   <hr className="s-hr s-hr-color mb-3" />
                   {data.slice(0, 12).sort().reverse().map((item) => (

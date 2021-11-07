@@ -19,14 +19,24 @@ export default function EditEntryPage() {
         <body className="index-page" style={{backgroundColor:"white"}}>
             <Navbar/>
             <div>
+                <div className="py-sm-7 py-5 bg-banner min-vh-50">
+                  <div className="container">
+                      <div className="row">
+                          <div className="col-12 mx-auto mt-4">
+                              <div className="row py-lg-4 py-5 mt-5 text-left">
+                                <h6 className="text-white">กิจกรรมจิดอาสา</h6>
+                                <h2 className="text-white">{data.v_name}</h2>
+                                <h6 className="text-white"><i className="fas fa-calendar-week"></i>&nbsp;{data.v_year}</h6>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
                 <div className="container">
                     <div className="row">
                       <div className="col-xl-12 mt-20">
-                        <h3 className="text-center">{data.v_name}</h3>
 
-                          <div className="d-flex justify-content-center">
-                            <hr className="s-hr3 s-hr-color mb-5" />
-                          </div>
+                 
                           <div className="d-flex justify-content-center">
                             <img src={data.v_pic} className="img-fluid w-xl-50" />
                           </div>

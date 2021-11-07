@@ -6,11 +6,11 @@ function Appreciation ({ appre }) {
       <div>
         <div className="container">
           <div className="row animate__animated animate__fadeInUp">
-          <h3 className="text-center mt-5">Appreciation คำนิยม</h3>
+          <h3 className="text-center mt-5 mb-5">Appreciation คำนิยม</h3>
           
            
               {appre.map((e) => (
-                <div className="col-xl-3">
+                <div className="col-xl-3 col-lg-4 col-md-6">
                     <div className="card" key={e.a_id}>
                         <div className="card-header p-0 mx-3 mt-3 position-relative z-index-1">
                             <a href="javascript:;" className="d-block">

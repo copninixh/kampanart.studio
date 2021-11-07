@@ -4,13 +4,7 @@ function AwardingAll({ awardsall }) {
   if (awardsall) {
     return (
       <div>
-        <div className="justify-content-center text-center">
-            <div className="col-xl-12">
-              <span className="badge bg-p mb-3">ผลงานและรางวัลเชิงวิชาการที่โดดเด่น</span>
-              <h3 className="text-center">Awards รางวัล</h3>
-              <p className="lead">ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
-            </div>
-        </div>
+        
         <div className="container">
           <div className="row">
       
@@ -18,7 +12,7 @@ function AwardingAll({ awardsall }) {
 
           
           {awardsall.map((e) => (
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-xs-12">
               <div className="card" key={e.a_id}>
                 <img src={e.a_pic} className="card-img-top"/>
                 <div className="card-body">

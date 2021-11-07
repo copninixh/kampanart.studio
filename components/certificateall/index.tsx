@@ -4,9 +4,9 @@ function Certified ({ cerall }) {
       <div>
         <div className="container">
           <div className="row">
-          <h3 className="text-center mt-5 mb-5">Certificate เกียรติบัตรทั้งหมด</h3>
+
           {cerall.map((e) => (
-            <div className="col-xl-3">
+            <div className="col-xl-3 col-lg-4 col-md-6 col-xs-12">
               <div className="card" key={e.c_id}>
                 <img src={e.c_pic} className="card-img-top"/>
                 <div className="card-body">

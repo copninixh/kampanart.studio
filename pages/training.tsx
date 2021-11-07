@@ -34,6 +34,7 @@ export default function Training() {
       <Headset />
       <body className="index-page" style={{backgroundColor:"#f3f4f6"}}>
         <Navbar />
+  
    
         <div className="contrainer-fluid page-gin-top">
         

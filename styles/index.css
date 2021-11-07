@@ -193,3 +193,24 @@ label{
 .bg-p{
   background-color: #da5f8e;
 }
+.btn{
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
+  
+}
+.card{
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.btn-primary{
+  background-color: #e685aa;
+  font-size: 14.5px !important;
+}
+
+.btn-primary:hover{
+  transition: 0.3s;
+  background-color: #da5f8e;
+}

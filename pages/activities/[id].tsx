@@ -26,7 +26,7 @@ export default function EditEntryPage() {
                             <div className="row py-lg-4 py-5 mt-5 text-center">
                               <h6 className="text-white">กิจกรรม </h6>
                               <h2 className="text-white">{data.a_name}</h2>
-                              <h6 className="text-white"><i className="fas fa-user text-white"></i>&nbsp;{data.a_org}</h6>
+                              <h6 className="text-white"><i className="fas fa-sitemap"></i>&nbsp;{data.a_org}</h6>
                             </div>
                         </div>
                     </div>

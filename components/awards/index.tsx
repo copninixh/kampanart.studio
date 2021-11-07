@@ -5,7 +5,7 @@ function Awarding({ awards }) {
     return (
       <div className="animate__animated animate__zoomInDown">
         <div className="justify-content-center text-center">
-            <div className="col-xl-12">
+            <div className="col-xl-12 mb-5">
               <span className="badge bg-p mb-3">ผลงานและรางวัลเชิงวิชาการที่โดดเด่น</span>
               <h3 className="text-center">Awards รางวัล</h3>
               <p className="lead">ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
@@ -18,7 +18,7 @@ function Awarding({ awards }) {
 
           
           {awards.map((e) => (
-            <div className="col-xl-6">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-xs-12">
               <div className="card" key={e.a_id}>
                 <img src={e.a_pic} className="card-img-top"/>
                 <div className="card-body">
@@ -31,7 +31,7 @@ function Awarding({ awards }) {
           ))}
 
           <div className="d-flex justify-content-center">
-            <a href="all_awards" className="btn btn-primary w-25">ดูทั้งหมด</a>
+            <a href="all_awards" className="btn btn-primary">ดูทั้งหมด <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" /></a>
           </div>
 
           
