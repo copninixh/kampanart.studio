@@ -1,7 +1,7 @@
 import Skeleton from 'react-loading-skeleton'
 import Headset from '../components/Headset'
 import Navbar from '@/components/navbar'
-import Activityallpage from '@/components/activityall'
+import Swot from '@/components/swot'
 
 import Banner from '@/components/banner'
 
@@ -12,7 +12,7 @@ import { useActivtyAll } from '@/lib/swr-hooks'
 import ReactLoading from 'react-loading';
 
 
-export default function AllAwardsPage() {
+export default function Training() {
   const { activityall , isLoading} = useActivtyAll()
 
 
@@ -34,11 +34,11 @@ export default function AllAwardsPage() {
       <Headset />
       <body className="index-page" style={{backgroundColor:"#f3f4f6"}}>
         <Navbar />
-        <Banner />
+  
+   
         <div className="contrainer-fluid page-gin-top">
         
-              <Activityallpage activityall={activityall} />
-
+             <Swot/>
               
               
         </div>

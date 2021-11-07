@@ -38,7 +38,7 @@ export default class Quote extends Component {
                             <div className="info">
                             <i className="fas fa-chalkboard fa-2x text-gradient text-primary"></i>
                             <h5 className="font-weight-bolder mt-3">การเข้าค่าย และการอบรม</h5>
-                            <p className="pe-5"></p>
+                            <p className="pe-5">การศึกษาเรียนรู้ด้วยตนเองและต่อเนื่อง</p>
                             <a href="training" className="text-sm icon-move-right">รายละเอียด
                                 <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" />
                             </a>
@@ -48,7 +48,7 @@ export default class Quote extends Component {
                             <div className="info">
                             <i className="fas fa-object-group fa-2x text-gradient text-primary"></i>
                             <h5 className="font-weight-bolder mt-3">ภาวะความเป็นผู้นำ</h5>
-                            <p className="pe-3"></p>
+                            <p className="pe-3">ความริเริ่มสร้างสรรค์และการทำงานเป็น<br/>กลุ่ม</p>
                             <a href="leadership" className="text-sm icon-move-right">รายละเอียด
                                 <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" />
                             </a>
@@ -59,7 +59,7 @@ export default class Quote extends Component {
                         <div className="col-md-6 mt-3">
                             <i className="fas fa-laptop-code fa-2x text-gradient text-primary"></i>
                             <h5 className="font-weight-bolder mt-3">ประสบการณ์การทำงาน</h5>
-                            <p className="pe-5"></p>
+                            <p className="pe-5">ความสามารถในการแก้ไขปัญหาและผลการดำเนินงาน</p>
                             <a href="experience" className="text-sm icon-move-right">รายละเอียด
                                 <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" />
                             </a>
@@ -67,8 +67,8 @@ export default class Quote extends Component {
                         <div className="col-md-6 mt-3">
                             <div className="info">
                             <i className="fas fa-tasks fa-2x text-gradient text-primary text-3xl"></i>
-                            <h5 className="font-weight-bolder mt-3">การวิเคราะห์จุดเด่น-จุดอ่อนของตน</h5>
-                            <p className="pe-3"></p>
+                            <h5 className="font-weight-bolder mt-3">การวิเคราะห์จุดแข็ง-จุดอ่อนของตน</h5>
+                            <p className="pe-3">การวิเคราะห์จุดแข็ง และจุดอ่อน ศักยภาพของตนเองที่ต้องพัฒนาเพิ่มในอนาคต</p>
                             <a href="swot" className="text-sm icon-move-right">รายละเอียด
                                 <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" />
                             </a>

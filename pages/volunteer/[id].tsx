@@ -38,14 +38,10 @@ export default function EditEntryPage() {
                           <div className="d-flex justify-content-center">
                             <img src={data.v_pic} className="img-fluid w-xl-50" />
                           </div>
-                          
-                          <p>{data.v_detail}</p>
-                          
+           
+                          <p>{data.v_detail}</p>   
                           <object data={data.v_ref} type="application/pdf" style={{minHeight: '100vh', width: '100%'}}>
                           </object>
-
-                          
-                
                       </div>
                         
                         
