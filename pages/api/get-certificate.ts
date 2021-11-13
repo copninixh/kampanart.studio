@@ -6,7 +6,7 @@ const handler: NextApiHandler = async (_, res) => {
     const results = await query(`
       SELECT * FROM certificate
       ORDER BY c_id ASC
-      LIMIT 10
+      LIMIT 3
   `)
 
     return res.json(results)
