@@ -6,7 +6,7 @@ const handler: NextApiHandler = async (_, res) => {
     const results = await query(`
       SELECT * FROM activity
       ORDER BY a_id ASC
-      LIMIT 4
+      LIMIT 2
   `)
 
     return res.json(results)

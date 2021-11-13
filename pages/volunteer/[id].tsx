@@ -81,10 +81,10 @@ export default function EditEntryPage() {
                       <div className="row">
                         <div className="col-xl-12 mt-5">
                             <div className="d-flex justify-content-center">
-                              <img src={data.v_pic} className="img-fluid w-xl-50" />
+                              <img src={data.v_pic} className="img-fluid w-xl-75" />
                             </div>
              
-                            <p>{data.v_detail}</p>   
+                            <p className="text-justify mt-3">{data.v_detail}</p>   
                            
                         </div>
                           
