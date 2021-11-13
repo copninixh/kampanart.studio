@@ -30,6 +30,7 @@ export default function IndexPage() {
 
     return (
       <div>
+        <Headset />
         <body className="index-page" style={{backgroundColor:"#da5f8e"}}>
           <div className="load-cen">
             <ReactLoading type={'cylon'} color={'#fff'} height={120} width={120} className="load-cen" />
