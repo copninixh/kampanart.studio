@@ -6,7 +6,7 @@ function Certified ({ cerall }) {
           <div className="row">
 
           {cerall.map((e) => (
-            <div className="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-xs-12">
               <div className="card" key={e.c_id}>
                 <img src={e.c_pic} className="card-img-top"/>
                 <div className="card-body">
