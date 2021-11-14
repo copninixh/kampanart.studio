@@ -12,7 +12,6 @@ import Education from '@/components/education'
 import Github from '@/components/github'
 import Journey from '@/components/journey'
 import Selfdev from '@/components/SelfDevelopment'
-
 import Footer from '@/components/footer'
 import Corejs from '../components/Corejs'
 import { useAwards , useActivty , useCertificate , useVolunteer , useAppreciation} from '@/lib/swr-hooks'
@@ -54,14 +53,9 @@ export default function IndexPage() {
               <Journey/>
               <AwardPage awards={awards} />
               <CertificatePage cer={cer} />
-              
               <ActivityPage activity={activity} />
-
-              
               <VolunteerPage volunt={volunt} />
               <Selfdev/>
-              
-              
         </div>
         <Footer />
         <Corejs />
