@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 141.667px;
+        fill: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <text id="Cop" class="cls-1" transform="translate(12.62 481.018) scale(3.299)">Cop</text>
+  <text id="ninich" class="cls-1" transform="matrix(2.117, 0, 0, 2.117, 28.958, 846.644)">ninich</text>
+</svg>

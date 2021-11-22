@@ -19,13 +19,13 @@ export default function EditEntryPage() {
         <body className="index-page" style={{backgroundColor:"#f3f4f6"}}>
             <Navbar/>
             <div>
-                <div className="py-sm-7 py-5 bg-banner min-vh-50">
+                <div className="py-sm-7 py-5 bg-banner">
                   <div className="container">
                       <div className="row">
                           <div className="col-12 mx-auto mt-4">
-                              <div className="row py-lg-4 py-5 mt-5 text-left">
-                                <h6 className="text-white">รางวัลและผลงานเชิงวิชาการ</h6>
-                                <h2 className="text-white">{data.a_name}</h2>
+                              <div className="row py-5 mt-3 text-left">
+                                <h6 className="text-white fw-bold">รางวัลและผลงานเชิงวิชาการ</h6>
+                                <h2 className="text-white f3">{data.a_name}</h2>
                                 <h6 className="text-white"><i className="fas fa-trophy"></i>&nbsp;{data.a_awards}</h6>
                               </div>
                           </div>
@@ -35,9 +35,9 @@ export default function EditEntryPage() {
 
                 <div className="container">
                     <div className="row">
-                      <div className="col-xl-12 bg-white" style={{minHeight:"100vh"}}>
+                      <div className="col-xl-12" style={{minHeight:"100vh"}}>
                        
-                          <div className="d-flex justify-content-left" style={{marginTop:"-90px"}}>
+                          <div className="d-flex justify-content-left" style={{marginTop:"-50px"}}>
                             <img src={data.a_pic} className="img-fluid w-xl-50" />
                           </div>
                           

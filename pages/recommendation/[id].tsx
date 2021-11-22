@@ -16,26 +16,37 @@ export default function EditEntryPage() {
 
   if (data) {
     return (
-      <div>
+      <>
         <Headset />
         <body className="index-page" style={{backgroundColor:"white"}}>
             <Navbar/>
             <div>
-                <div className="container">
+                <div className="bg-banner-recommend">
+                  <div className="col-xl-12 text-center">
+                    <img src={data.a_pic2} className="img-fluid img-teacher" />
+                  </div>
+                </div>
+
+                <div className="container" style={{marginTop:"-60px"}}>
+                  <div className="row">
+                    <div className="col-xl-12 text-center bg-banner-recommend-name py-3">
+                      <h4 className="f3 f-name-teacher">{data.a_name}</h4>
+                      <h6 className="f1 f-teacher">{data.a_status}</h6>
+                      <h6 className="f1 f-teacher">{data.a_position}</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="container mt-5">
                     <div className="row">
                       <div className="col-xl-12 mt-20">
                         <div className="row">
-                          <div className="col-xl-12 text-center">
-                            <img src={data.a_pic} className="img border-radius-lg rounded-circle img-fluid max-width-200" />
-                            <h4 className="mt-3 text-gradient text-primary ">{data.a_name}</h4>
-                            <h6>{data.a_status}</h6>
-                            <h6>{data.a_position}</h6>
-                          </div>
+                          
                           <div className="col-xl-6">
                             <img src={data.a_recommend} className="img-fluid w-100" />
                           </div>
                           <div className="col-xl-6 mt-xl-5">
-                            <p className="text-justify mt-xl-5">{data.a_detail}</p>
+                            <div dangerouslySetInnerHTML={{ __html: data.a_detail }}></div>
                           </div>
                         </div>
                         
@@ -52,7 +63,7 @@ export default function EditEntryPage() {
             <Footer />
             <Corejs />
         </body>
-      </div>
+      </>
     )
   } else {
     return (

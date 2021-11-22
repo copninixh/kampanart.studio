@@ -20,7 +20,7 @@ export default function AllAwardsPage() {
 
     return (
       <div>
-        <Headset />
+        
         <body className="index-page" style={{backgroundColor:"#da5f8e"}}>
           <div className="load-cen">
             <ReactLoading type={'cylon'} color={'#fff'} height={120} width={120} className="load-cen" />
@@ -39,11 +39,11 @@ export default function AllAwardsPage() {
           <div className="py-sm-7 py-5 bg-banner min-vh-50">
             <div className="container">
               <div className="row">
-                <div className="col-12 mx-auto mt-4">
+                <div className="col-12 mx-auto mt-3">
                   <div className="row py-lg-4 py-5 mt-5 text-center">
-                    <h6 className="text-white">ผลงานและรางวัลเชิงวิชาการที่โดดเด่น</h6>
-                    <h2 className="text-white"><i className="fas fa-trophy"></i> Awards รางวัล</h2>
-                    <p className="lead text-white">ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
+                    <p className="text-white f3 mb-0" style={{fontSize:"25px"}}>ผลงานและรางวัลเชิงวิชาการที่โดดเด่น</p>
+                    <p className="text-white text-awards f3 mb-0" style={{fontSize:"45px"}}>Awards รางวัล</p>
+                    <p className="lead text-white f3" style={{fontSize:"27px"}}>ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
                   </div>
                 </div>
               </div>

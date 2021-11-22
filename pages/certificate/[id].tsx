@@ -31,7 +31,7 @@ export default function EditEntryPage() {
                             <hr className="s-hr3 s-hr-color mb-5" />
                           </div>
                           <div className="d-flex justify-content-center">
-                            <img src={data.c_pic} className="img-fluid w-xl-50" />
+                            <img src={data.c_pic} className="img-fluid w-50" />
                           </div>
                           
                         <p>{data.c_detail}</p>

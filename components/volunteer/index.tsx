@@ -1,4 +1,4 @@
-import Volunteer from './vol'
+
 
 function Volun({ volunt }) {
   if (volunt) {
@@ -6,25 +6,19 @@ function Volun({ volunt }) {
       <div>
         <section className="mt-5 animate__animated animate__fadeIn">
           <div className="container">
-            <div className="row">
-              <div className="col-lg-6 mx-auto text-center">
-                <h2 className="mb-0">กิจกรรม</h2>
-                <h2 className="text-gradient text-primary mb-3">Volunteer จิตอาสา</h2>
-                <p className="lead"></p>
-              </div>
-            </div>
+     
             <div className="row mt-6">
           {volunt.map((e) => (
           
           <div className="col-lg-4 col-md-8">
-            <div className="card card-plain">
+            <div className="card card-plain h-75">
               <div className="card-body">
                 <div className="author">
                   <div className="name">
                     <a href={`/volunteer/${e.v_id}`}>
-                    <h6 className="mb-0 font-weight-bolder">{e.v_name}</h6>
+                    <h6 className="f-volunteer f3">{e.v_name}</h6>
                     </a>
-                    <div className="stats">
+                    <div className="stats ">
                       <i className="far fa-clock" aria-hidden="true" /> {e.v_year}
                     </div>
                   </div>

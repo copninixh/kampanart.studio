@@ -20,8 +20,8 @@ export default function AllAwardsPage() {
 
     return (
       <div>
-        <Headset />
-        <body className="index-page" style={{backgroundColor:"#da5f8e"}}>
+     
+        <body className="index-page">
           <div className="load-cen">
             <ReactLoading type={'cylon'} color={'#fff'} height={120} width={120} className="load-cen" />
           </div>
@@ -42,8 +42,8 @@ export default function AllAwardsPage() {
                 <div className="col-12 mx-auto mt-4">
                   <div className="row py-lg-4 py-5 mt-5 text-center">
                     <h6 className="text-white"></h6>
-                    <h2 className="text-white"><i className="fas fa-map-marker-edit"></i> Activity กิจกรรม</h2>
-                    <p className="lead text-white">ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
+                    <h2 className="text-white f3"><i className="fas fa-map-marker-edit"></i> Activity กิจกรรม</h2>
+                    <p className="lead text-white f1 fw-bold">ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
                   </div>
                 </div>
               </div>
