@@ -20,14 +20,14 @@ export default function EditEntryPage() {
         <body className="index-page" style={{backgroundColor:"white"}}>
             <Navbar/>
             <div>
-                <div className="py-sm-7 py-5 bg-banner min-vh-50">
+                <div className="py-5 bg-main bg-text-center">
                   <div className="container">
                       <div className="row">
-                          <div className="col-12 mx-auto mt-4">
-                              <div className="row py-lg-4 py-5 mt-5 text-left">
-                                <h6 className="text-white">กิจกรรมจิดอาสา</h6>
-                                <h2 className="text-white">{data.v_name}</h2>
-                                <h6 className="text-white"><i className="fas fa-calendar-week"></i>&nbsp;{data.v_year}</h6>
+                          <div className="col-12">
+                              <div className="row text-left ">
+                                <h6 className="text-white f1 fw-bold" style={{fontSize:"19px"}}>กิจกรรมจิตอาสา</h6>
+                                <h2 className="text-white f3" style={{fontSize:"41px"}}>{data.v_name}</h2>
+                                <h6 className="text-white f1" style={{fontSize:"17px"}}><i className="fas fa-calendar-week"></i>&nbsp;{data.v_year}</h6>
                               </div>
                           </div>
                       </div>
@@ -40,7 +40,7 @@ export default function EditEntryPage() {
                             <img src={data.v_pic} className="img-fluid w-xl-50" />
                           </div>
            
-                          <p>{data.v_detail}</p>   
+                          <p className="f1" style={{fontSize:"16px"}}>{data.v_detail}</p>   
                           <object data={data.v_ref} type="application/pdf" style={{minHeight: '100vh', width: '100%'}}>
                           </object>
                       </div>
@@ -64,14 +64,14 @@ export default function EditEntryPage() {
           <body className="index-page" style={{backgroundColor:"white"}}>
               <Navbar/>
               <div>
-                  <div className="py-sm-7 py-5 bg-banner min-vh-50">
+                  <div className="py-5 bg-main bg-text-center">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 mx-auto mt-4">
-                                <div className="row py-lg-4 py-5 mt-5 text-left">
-                                  <h6 className="text-white">กิจกรรมจิดอาสา</h6>
-                                  <h2 className="text-white">{data.v_name}</h2>
-                                  <h6 className="text-white"><i className="fas fa-calendar-week"></i>&nbsp;{data.v_year}</h6>
+                            <div className="col-12">
+                                <div className="row text-left">
+                                <h6 className="text-white f1 fw-bold" style={{fontSize:"19px"}}>กิจกรรมจิตอาสา</h6>
+                                <h2 className="text-white f3" style={{fontSize:"41px"}}>{data.v_name}</h2>
+                                <h6 className="text-white f1" style={{fontSize:"17px"}}><i className="fas fa-calendar-week"></i>&nbsp;{data.v_year}</h6>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ export default function EditEntryPage() {
                       <div className="row">
                         <div className="col-xl-12 mt-5">
                             <div className="d-flex justify-content-center">
-                              <img src={data.v_pic} className="img-fluid w-xl-75" />
+                              <img src={data.v_pic} className="img-fluid w-75" />
                             </div>
              
                             <p className="text-justify mt-3">{data.v_detail}</p>   

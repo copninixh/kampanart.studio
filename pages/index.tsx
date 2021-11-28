@@ -8,8 +8,8 @@ import Selfdev from '@/components/SelfDevelopment'
 import Footer from '@/components/footer'
 import Corejs from '../components/Corejs'
 import ReactLoading from 'react-loading';
-import { useAppreciation} from '@/lib/swr-hooks'
-import Status from '@/components/status'
+import { useAppreciation} from '@/lib/swr-hooks';
+import Status from '@/components/status';
 
 
 export default function IndexPage() {

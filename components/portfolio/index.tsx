@@ -33,7 +33,7 @@ export default function Portfolio() {
                           <button className="nav-link menu_port" id="pills-certificate-tab" data-bs-toggle="pill" data-bs-target="#pills-certificate" type="button" role="tab" aria-controls="pills-certificate" aria-selected="false">Certificate</button>
                         </li>
                         <li className="nav-item" role="presentation">
-                          <button className="nav-link menu_port" id="pills-activity-tab" data-bs-toggle="pill" data-bs-target="#pills-activity" type="button" role="tab" aria-controls="pills-activity" aria-selected="false">Activity</button>
+                          <button className="nav-link menu_port" id="pills-activity-tab" data-bs-toggle="pill" data-bs-target="#pills-activity" type="button" role="tab" aria-controls="pills-activity" aria-selected="false">Activities</button>
                         </li>
                         <li className="nav-item" role="presentation">
                           <button className="nav-link menu_port" id="pills-volunteer-tab" data-bs-toggle="pill" data-bs-target="#pills-volunteer" type="button" role="tab" aria-controls="pills-volunteer" aria-selected="false">Volunteer</button>

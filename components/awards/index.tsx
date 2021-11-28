@@ -20,7 +20,7 @@ function Awarding({ awards }) {
                 <img src={e.a_pic} className="card-img-top h-75"/>
                 <div className="card-body">
                   <h5 className="card-title fw-bold">{e.a_name}</h5>
-                  <p className="f-awards-detail"><i className="fas fa-trophy"></i> {e.a_awards}</p>
+                  <p className="f-awards-detail"><i className="fas fa-trophy" style={{fontSize:"16px"}}></i> {e.a_awards}</p>
                   <a href={`/awards/${e.a_id}`} className="btn btn-primary">รายละเอียด <i className="fas fa-location-arrow"></i></a>
                 </div>
               </div>
@@ -28,7 +28,7 @@ function Awarding({ awards }) {
           ))}
 
           <div className="d-flex justify-content-center">
-            <a href="all_awards" className="btn btn-primary">ดูทั้งหมด <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" /></a>
+            <a href="all_awards " className="btn-custom">ดูทั้งหมด <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" /></a>
           </div>
 
           

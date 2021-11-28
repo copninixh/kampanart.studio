@@ -105,6 +105,22 @@ body{
 .text-justify{
   text-align: justify !important;
 }
+.text-activities-page{
+  color: #E5789F;
+}
+.text-activities-page:hover{
+  color: #434343;
+  transition: 0.7s ease;
+}
+.text-nav-smooth:hover{
+  color: #434343;
+  transition: 0.7s ease-in;
+}
+.text-certificate{
+  color: #e5789f;
+  font-family: "FC-Friday" !important;
+  font-size: 25px;
+} 
 .f-menu-copninich{
   font-family: "FC-Friday" !important;
   font-size: 23px !important;
@@ -112,9 +128,8 @@ body{
 }
 .nav-pills > .nav-link {
   background: none;
-  color: #e5789f;
+  color: #e5789f !important;
 }
-
 .nav > .nav-pills > .nav-item > .nav-link{
   border-radius: 2px !important;
 }
@@ -124,8 +139,6 @@ body{
 .navbar-nav > .nav-item > .nav-link:hover{
   transition: 0.2s;
   color: #e5789f !important;
-
-
 }
 .nav-link:hover{
   color: #434343 !important;
@@ -186,6 +199,13 @@ body{
   .img-teacher{
     width: 100%;
   }
+  .status_github{
+    border-radius: 17px;
+    margin-top: -81px;
+  }
+  .vh-75{
+    height: 696.75px !important;
+  }
 }
 /* sm */
 @media only screen and (min-width: 576px) {
@@ -208,6 +228,13 @@ body{
   }
   .img-teacher{
     width: 60%;
+  }
+  .status_github{
+    border-radius: 17px;
+    margin-top: -81px;
+  }
+  .vh-75{
+    height: 696.75px !important;
   }
 }
 /* md */
@@ -254,6 +281,14 @@ body{
   .img-teacher{
     width: 60%;
   }
+  .status_github{
+    border-radius: 17px;
+    margin-top: -81px;
+  }
+  .vh-75{
+    height: 696.75px !important;
+  }
+  
 }
 /* lg */
 @media only screen and (min-width: 992px) {
@@ -295,6 +330,13 @@ body{
   .img-teacher{
     width: 60%;
   }
+  .status_github{
+    border-radius: 17px;
+    margin-top: -81px;
+  }
+  .vh-75{
+    height: 75vh !important;
+  }
   
 }
 /* xl */
@@ -320,6 +362,7 @@ body{
     font-size: 51px;
     margin-top: 276px;
   }
+
   .banner-font2{
     font-family: 'Poppins', sans-serif !important;
     font-size: calc(1.275rem + 0.3vw);
@@ -338,9 +381,69 @@ body{
   .img-teacher{
     width: 30%;
   }
+  .status_github{
+    border-radius: 17px;
+    margin-top: -81px;
+  }
+  .vh-75{
+    height: 75vh !important;
+  }
+}
+/* 4k */
+@media only screen and (min-width: 1921px) {
+  .text-quote{
+    font-family: "FC-Friday" !important;
+    font-size: 37px !important;
+    color: #e5789f;
+    text-align: center;
+    margin-bottom: 1px;
+  }
+  .text-parallax{
+    font-size: 27.5px;
+    font-family: "FC-Friday" !important;
+    color: white;
+    text-align: center !important;
+  }
+  .img-signature{
+    width: 25%;
+  }
+  .banner-font1{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 51px;
+    margin-top: 276px;
+  }
+
+  .banner-font2{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  .banner-font3{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 26px;
+    margin-top: 426px;
+  }
+  .banner-font4{
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .banner-font5{
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .img-teacher{
+    width: 30%;
+  }
+  .vh-75{
+    height: 696.75px !important;
+  }
+  .status_github{
+    border-radius: 17px;
+    margin-top: -81px;
+  }
 }
 .bg-dark{
-  transition: 0.2s;
+  transition: .5s ease;
+}
+.smooth-back{
+  transition: .5s ease;
 }
 .bg-banner{
   background-color: #e5789f !important;
@@ -369,13 +472,13 @@ body{
 }
 .icon-banner{
   font-size: 19px;
-  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: transparent; 
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #343434;
 }
 .nav-link.active > .icon-banner{
   font-size: 19px;
-  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: transparent; 
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white;
 }
@@ -390,7 +493,6 @@ body{
   justify-content: center;
   align-items: center;
 }
-
 .banner_cop {
   background-image: url("../public/assets/img/cop/cop_banner.png");
   min-height: auto;
@@ -429,7 +531,6 @@ nav{
 .border-none{
   border-radius: unset !important;
 }
-
 .bg-pink{
   background-color: #E5789F;
 }
@@ -450,7 +551,6 @@ nav{
 		background-position: 0% 50%;
 	}
 }
-
 .shadow-box{
   box-shadow: 0px 9px 6px rgba(0, 0, 0, 0.16);
 }
@@ -501,10 +601,6 @@ footer{
 }
 .f-15{
   font-size: 13px !important;
-}
-.status_github{
-  border-radius: 17px;
-  margin-top: -81px;
 }
 .num_status{
   font-family: 'Poppins', sans-serif !important; 
@@ -607,24 +703,27 @@ label{
   transition: 0.3s;
   background-color: #da5f8e;
   transform: scale(1.02);
-  transition: 0.3s;
   box-shadow: 6px 9px 12px rgba(0, 0, 0, 0.16);
 }
 .btn-primary:focus {
   border: unset !important;
   border-color: unset !important;
 }
+.btn-primary:active{
+  border: unset !important;
+  border-color: transparent !important;
+}
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   border: unset !important;
-  border-color: unset !important;
+  border-color: transparent !important;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   border: unset !important;
-  border-color: unset !important;
+  border-color: transparent !important;
 }
 .btn-primary:disabled, .btn-primary.disabled {
   border: unset !important;
-  border-color: unset !important;
+  border-color: transparent !important;
 }
 a{
   text-decoration: none !important;
@@ -674,10 +773,6 @@ a{
 .navbar-toggler.collapsed .toggler-icon {
   background-color: #777777;
 }
-.vh-75{
-  height: 75vh !important;
-}
-
 .timeline_area {
   position: relative;
   z-index: 1;
@@ -799,18 +894,198 @@ a{
 ::-webkit-scrollbar {
   width: 20px;
 }
-
 ::-webkit-scrollbar-track {
   background-color: #fff;
 }
-
 ::-webkit-scrollbar-thumb {
   background-color: #d6dee1;
   border-radius: 20px;
   border: 6px solid transparent;
   background-clip: content-box;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a8bbbf;
+  transition: 1s;
+}
+::-moz-selection { /* Code for Firefox */
+  background: #ffaaca;
+}
+::selection {
+  background: #ffaaca;
+}
+.image-detail{
+  transition: all 10s;
+  -webkit-transition: all 10s;
+}
+.image-activities-page:hover .image-detail{
+  -moz-transform: scale(2);	
+  -webkit-transform: scale(2);	
+  -o-transform: scale(2);	
+  -ms-transform: scale(2);
+  transform: scale(2);
+}
+.image-box{
+  position: relative;
+  overflow: hidden; 
+  display: block;
+}
+.image-activities-radius{
+  border-radius: 9px;
+}
+.banner-activity-page{
+  background-image: url("../public/assets/img/activity/activity_page_bg.jpg");
+  min-height: 597px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-text-center{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-certificate-page{
+  background-image: url("../public/assets/img/graphic/certificate_page_bg.jpg");
+  min-height: 597px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-certificate{
+  min-height: 100px;
+}
+.btn-custom{
+  font-family: "FC-Friday" !important;
+  font-size: 25px;
+  display: flex;
+  width: 250px;
+  height: 45px;
+  line-height: 45px;
+  text-decoration: none;
+  background: #434343;
+  text-align: center;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #434343;
+  transition: all .35s;
+}
+.icon-btn{
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all .35s;
+}
+.icon-btn svg{
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  transform: rotate(-45deg);
+  fill: #e5789f;
+  transition: all .35s;
+}
+.btn-custom:hover{
+  width: 200px;
+  border: 3px solid #e5789f;
+  background: transparent;
+  color: #e5789f;
+}
+.btn-custom:hover + .icon-btn{
+  border: 3px solid #e5789f;
+  right: -25%;
+}
+.btn-custom > i{
+  font-size: 16px !important;
+  font-weight: bold;
+}
+.certificate_preview{
+  flex-wrap: wrap;
+  flex: initial; 
+}
+.profile-card-4 {
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.profile-card-4 img {
+  transition: all 10s;
+}
+
+.profile-card-4 .profile-content {
+  position: relative;
+  padding: 15px;
+  background-color: #FFF;
+}
+
+.profile-card-4 .profile-name {
+  font-weight: bold;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: -70px;
+  color: #FFF;
+  font-size: 17px;
+}
+
+.profile-card-4 .profile-name p {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+
+.profile-card-4 .profile-description {
+  color: #777;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.profile-card-4 .profile-overview {
+  padding: 15px 0px;
+}
+
+.profile-card-4 .profile-overview p {
+  font-size: 10px;
+  font-weight: 600;
+  color: #777;
+}
+
+.profile-card-4 .profile-overview h4 {
+  color: #273751;
+  font-weight: bold;
+}
+
+.profile-card-4 .profile-content::before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  top: -10px;
+  left: 0px;
+  right: 0px;
+  background-color: #FFF;
+  z-index: 0;
+  transform: skewY(3deg);
+}
+.profile-card-4:hover img {
+  filter: grayscale(110%);
+  transform: scale(2);
 }

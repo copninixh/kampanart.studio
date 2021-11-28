@@ -3,8 +3,10 @@ var nav = document.querySelector('nav');
 window.addEventListener('scroll', function () {
   if (window.pageYOffset > 100) {
     nav.classList.add('navbar-light', 'bg-dark', 'shadow');
-  } else {
+  }
+  else {
     nav.classList.remove('bg-light',  'bg-dark', 'shadow');
+    nav.classList.add('smooth-back' );
   }
 });
 

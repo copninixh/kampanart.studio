@@ -20,17 +20,17 @@ export default function Banner() {
             <> 
                  {/* xl - xxl */}
               <div className="bg-main vh-75 d-none d-xxl-block d-xl-block d-lg-none">
-               <div className="vh-75 banner_cop ">
+               <div className="vh-75 banner_cop">
                  
                  <div className="container-fluid">
                    <div className="row">
-                       <div className="col-xxl-4 col-lg-4">
+                       <div className="col-xxl-4 col-lg-4 animate__animated animate__zoomIn">
                            <h1 className="text-white fw-bold banner-font1"><span ref={textRef}></span><br/>Chaimooltan</h1>
                            <h4 className="text-white fw-normal banner-font2">Yupparaj Wittayalai School</h4>
                            <a href="" className="btn btn-danger w-50">About Me <i className="fas fa-arrow-down"></i></a>
                        </div>
                        <div className="col-xxl-5 col-lg-5"></div>
-                       <div className="col-xxl-3 col-lg-3">
+                       <div className="col-xxl-3 col-lg-3 animate__animated animate__zoomIn">
                             <h1 className="text-white fw-bold banner-font3 mb-0">#dek65</h1>
                             <h4 className="text-white fw-normal banner-font4">Computer Engineering</h4>
                             <hr className="hr_banner"></hr>

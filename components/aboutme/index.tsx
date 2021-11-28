@@ -9,6 +9,8 @@ import Cop from 'public/assets/img/cop/cop.png';
 
 export default function Aboutme()  {
     
+ 
+
     
     const [data, setData] = useState([]);
     useEffect(() => {
@@ -34,7 +36,7 @@ export default function Aboutme()  {
                         <h4 className="f2 f-pink fw-bold mt-5 f-header">About ME</h4>
                     </div>
                     
-                    <div className="col-xl-3 col-lg-4 col-md-5">
+                    <div className="col-xl-3 col-lg-4 col-md-5 animate__animated animate__fadeInLeft">
                         <div className="nav flex-column nav-pills shadow-box" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <button className="nav-link active border-none f-menu-copninich" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><i className="fas fa-user icon-banner"></i>&nbsp;&nbsp;&nbsp;รู้จักกัมปนาท</button>
                             <button className="nav-link border-none f-menu-copninich" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i className="fas fa-school icon-banner"></i>&nbsp;&nbsp;ประวัติการศึกษา</button>
@@ -44,7 +46,7 @@ export default function Aboutme()  {
                         </div>
                     </div>
 
-                    <div className="col-xl-9 col-lg-8 col-md-7">
+                    <div className="col-xl-9 col-lg-8 col-md-7 animate__animated animate__fadeInRight">
                         <div className="tab-content mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0" id="v-pills-tabContent">
                             <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                 <div className="row">
