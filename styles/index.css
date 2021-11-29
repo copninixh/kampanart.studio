@@ -207,13 +207,13 @@ body{
     height: 696.75px !important;
   }
   .text-banner-award-1{
-    font-size: 27px;
+    font-size: 24px;
   }
   .text-banner-award-2{
     font-size: 41px;
   }
   .text-banner-award-3{
-    font-size: 25px;
+    font-size: 24px;
   }
   .text-banner-cer-1{
     font-size: 35px;
@@ -226,6 +226,9 @@ body{
   }
   .text-banner-act-2{
     font-size: 27px;
+  }
+  .img-detail-page{
+    width: 100%;
   }
   
 }
@@ -278,6 +281,9 @@ body{
   }
   .text-banner-act-2{
     font-size: 27px;
+  }
+  .img-detail-page{
+    width: 100%;
   }
   
 }
@@ -353,6 +359,9 @@ body{
   .text-banner-act-2{
     font-size: 27px;
   }
+  .img-detail-page{
+    width: 100%;
+  }
   
   
 }
@@ -423,6 +432,9 @@ body{
   }
   .text-banner-act-2{
     font-size: 27px;
+  }
+  .img-detail-page{
+    width: 85%;
   }
   
   
@@ -497,6 +509,9 @@ body{
   .text-banner-act-2{
     font-size: 27px;
   }
+  .img-detail-page{
+    width: 75% !important;
+  }
   
 }
 /* 4k */
@@ -569,7 +584,9 @@ body{
   .text-banner-act-2{
     font-size: 27px;
   }
-  
+  .img-detail-page{
+    width: 75%;
+  }
 }
 .bg-dark{
   transition: .5s ease;

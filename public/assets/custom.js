@@ -8,6 +8,7 @@ window.addEventListener('scroll', function () {
     nav.classList.remove('bg-light',  'bg-dark', 'shadow');
     nav.classList.add('smooth-back' );
   }
+ 
 });
 
 

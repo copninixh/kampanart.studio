@@ -84,7 +84,7 @@ export default function EditEntryPage() {
                               <img src={data.v_pic} className="img-fluid w-75" />
                             </div>
              
-                            <p className="text-justify mt-3">{data.v_detail}</p>   
+                            <p className="text-justify mt-3 f1">{data.v_detail}</p>   
                            
                         </div>
                           

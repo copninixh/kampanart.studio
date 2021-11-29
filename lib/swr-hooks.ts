@@ -26,8 +26,8 @@ export function useAwardsAll() {
 
   return {
     awardsall: data,
-    isLoading: !error && !data,
-    isError: error,
+    isLoading_awardsall: !error && !data,
+    isError_awardsall: error,
   }
 }
 
@@ -38,8 +38,8 @@ export function useActivty() {
 
   return {
     activity: data,
-    isLoading: !error && !data,
-    isError: error,
+    isLoading_activity: !error && !data,
+    isError_activity: error,
   }
 }
 
@@ -49,8 +49,8 @@ export function useActivtyAll() {
 
   return {
     activityall: data,
-    isLoading: !error && !data,
-    isError: error,
+    isLoading_activityall: !error && !data,
+    isError_activityall: error,
   }
 }
 
@@ -65,8 +65,8 @@ export function useVolunteer() {
 
   return {
     volunt: data,
-    isLoading: !error && !data,
-    isError: error,
+    isLoading_volunt: !error && !data,
+    isError_volunt: error,
   }
 }
 
@@ -82,8 +82,8 @@ export function useCertificate() {
 
   return {
     cer: data,
-    isLoading: !error && !data,
-    isError: error,
+    isLoading_cer: !error && !data,
+    isError_cer: error,
   }
 }
 
@@ -93,8 +93,8 @@ export function useCertificateAll() {
 
   return {
     cerall: data,
-    isLoading: !error && !data,
-    isError: error,
+    isLoading_cerall: !error && !data,
+    isError_cerall: error,
   }
 }
 
@@ -109,8 +109,8 @@ export function useAppreciation () {
 
   return {
     appre: data,
-    isLoading: !error && !data,
-    isError: error,
+    isLoading_appre: !error && !data,
+    isError_appre: error,
   }
 }
 

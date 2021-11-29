@@ -43,10 +43,10 @@ export default function EditEntryPage() {
                         <div className="row">
                           
                           <div className="col-xl-6">
-                            <img src={data.a_recommend} className="img-fluid w-100" />
+                            <img src={data.a_recommend} className="img-fluid img-detail-page" />
                           </div>
                           <div className="col-xl-6 mt-xl-5">
-                            <div dangerouslySetInnerHTML={{ __html: data.a_detail }}></div>
+                            <div className="f1" dangerouslySetInnerHTML={{ __html: data.a_detail }}></div>
                           </div>
                         </div>
                         

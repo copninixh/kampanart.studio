@@ -10,25 +10,30 @@ import Corejs from '../components/Corejs'
 import ReactLoading from 'react-loading';
 import { useAppreciation} from '@/lib/swr-hooks';
 import Status from '@/components/status';
-
+import { useAwards , useActivty , useCertificate , useVolunteer} from '@/lib/swr-hooks'
 
 export default function IndexPage() {
 
   const { appre } = useAppreciation()
+  const {isLoading} = useAwards()
+  const {isLoading_activity} = useActivty()
+  const {isLoading_cer} = useCertificate()
+  const {isLoading_volunt} = useVolunteer()
 
-  // if (isLoading) {
 
-  //   return (
-  //     <div>
+  if (isLoading && isLoading_activity && isLoading_cer &&isLoading_volunt) {
+
+    return (
+      <div>
        
-  //       <body className="index-page" style={{backgroundColor:"#da5f8e"}}>
-  //         <div className="load-cen">
-  //           <ReactLoading type={'cylon'} color={'#fff'} height={120} width={120} className="load-cen" />
-  //         </div>
-  //       </body>
-  //     </div>
-  //   )
-  // }
+        <body className="index-page" style={{backgroundColor:"#da5f8e"}}>
+          <div className="load-cen">
+            <ReactLoading type={'cylon'} color={'#fff'} height={120} width={120} className="load-cen" />
+          </div>
+        </body>
+      </div>
+    )
+  }
 
   return (
     <>

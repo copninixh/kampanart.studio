@@ -19,27 +19,29 @@ export default function EditEntryPage() {
         <body className="index-page" style={{backgroundColor:"#f3f4f6"}}>
             <Navbar/>
             <div>
-              <div className="py-sm-7 py-5 bg-banner min-vh-50">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12 mx-auto mt-4">
-                            <div className="row py-lg-4 py-5 mt-5 text-center">
-                              <h6 className="text-white">กิจกรรม </h6>
-                              <h2 className="text-white">{data.a_name}</h2>
-                              <h6 className="text-white"><i className="fas fa-sitemap"></i>&nbsp;{data.a_org}</h6>
+            <div className="py-5 bg-main bg-text-center">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="row text-center">
+                                  <h6 className="text-white f1 fw-bold">กิจกรรม </h6>
+                                  <h2 className="text-white f3" style={{fontSize:"41px"}}>{data.a_name}</h2>
+                                  <h6 className="text-white f1 fw-bold" style={{fontSize:"17px"}}><i className="fas fa-sitemap"></i>&nbsp;{data.a_org}</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-              </div>
+                  </div>
+
+           
 
                 <div className="container">
                     <div className="row">
                       <div className="col-xl-12 bg-white" style={{minHeight:"100vh"}}>
                           <div className="d-flex justify-content-center" style={{marginTop:"-90px"}}>
-                            <img src={data.a_pic} className="img-fluid w-xl-75" />
+                            <img src={data.a_pic} className="img-fluid img-detail-page" />
                           </div>
-                          <p className="mt-5">{data.a_detail}</p>
+                          <p className="mt-5 f1">{data.a_detail}</p>
                       </div>    
                     </div>
                     
