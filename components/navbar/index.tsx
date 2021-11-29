@@ -8,7 +8,7 @@ export default class Mainpage extends Component {
               <nav className="navbar navbar-expand-lg navbar-dark fixed-top mb-5 py-3">
                 <div className="container-fluid">
                   <a className="navbar-brand" href="/">
-                    <embed src="../assets/img/copninich.svg" width="51px" />
+                    <img src="../assets/img/copninich.svg" width="51px" />
                   </a>
                   <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="toggler-icon top-bar" />
