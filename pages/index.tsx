@@ -16,12 +16,10 @@ export default function IndexPage() {
 
   const { appre } = useAppreciation()
   const {isLoading} = useAwards()
-  const {isLoading_activity} = useActivty()
-  const {isLoading_cer} = useCertificate()
-  const {isLoading_volunt} = useVolunteer()
 
 
-  if (isLoading && isLoading_activity && isLoading_cer &&isLoading_volunt) {
+
+  if (isLoading) {
 
     return (
       <div>
