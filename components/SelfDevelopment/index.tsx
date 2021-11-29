@@ -25,11 +25,11 @@ export default class Quote extends Component {
 
             <div className="container mt-12 mb-5">
                 <div className="row">
-                    <div className="col-xxl-7 col-md-7 align-self-center">
+                    <div className="col-xxl-7 col-md-12 align-self-center">
                         <div className="container">
                             <div className="row">
                                 
-                                <div className="col-xxl-6 col-md-6">
+                                <div className="col-xxl-6 col-md-12">
                                     <div className="card py-4 card-self">
                                         <div className="card-body text-center">
                                             <i className="fas fa-chalkboard fa-2x f-pink"></i>
@@ -39,7 +39,7 @@ export default class Quote extends Component {
                                     </div>
                                 </div>
 
-                                <div className="col-xxl-6 col-md-6">
+                                <div className="col-xxl-6 col-md-12">
                                     <div className="card py-4 card-self">
                                         <div className="card-body text-center">
                                             <i className="far fa-user-chart fa-2x f-pink"></i>
@@ -49,7 +49,7 @@ export default class Quote extends Component {
                                     </div>
                                 </div>
 
-                                <div className="col-xxl-6 col-md-6">
+                                <div className="col-xxl-6 col-md-12">
                                     <div className="card py-4 card-self">
                                         <div className="card-body text-center">
                                             <i className="fas fa-object-group fa-2x f-pink"></i>
@@ -59,7 +59,7 @@ export default class Quote extends Component {
                                     </div>
                                 </div>
 
-                                <div className="col-xxl-6 col-md-6">
+                                <div className="col-xxl-6 col-md-12">
                                     <div className="card py-4 card-self">
                                         <div className="card-body text-center">
                                             <i className="far fa-clipboard-list-check fa-2x f-pink"></i>
@@ -73,7 +73,7 @@ export default class Quote extends Component {
                         </div>
                     </div>
 
-                    <div className="col-xxl-5 col-md-5">
+                    <div className="col-xxl-5 col-md-12">
                         <img src="../assets/img/cop/cop_self.jpg" className="img-fluid w-100"></img>
                     </div>
                 </div>

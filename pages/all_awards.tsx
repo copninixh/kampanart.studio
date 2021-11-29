@@ -41,9 +41,9 @@ export default function AllAwardsPage() {
               <div className="row">
                 <div className="col-12">
                   <div className="row text-center">
-                    <p className="text-white f3 mb-0" style={{fontSize:"27px"}}>ผลงานและรางวัลเชิงวิชาการที่โดดเด่น</p>
-                    <p className="text-white text-awards f3 mb-0" style={{fontSize:"41px"}}>Awards รางวัล</p>
-                    <p className="lead text-white f3 mb-0" style={{fontSize:"25px"}}>ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
+                    <p className="text-white f3 mb-0 text-banner-award-1">ผลงานและรางวัลเชิงวิชาการที่โดดเด่น</p>
+                    <p className="text-white text-awards f3 mb-0 text-award-banner-2">Awards รางวัล</p>
+                    <p className="text-white f3 mb-0 text-banner-award-3">ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
                   </div>
                 </div>
               </div>

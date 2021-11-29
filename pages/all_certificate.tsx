@@ -41,8 +41,8 @@ export default function AllCertificatePage() {
               <div className="row">
                 <div className="col-12">
                   <div className="row text-center">
-                    <h2 className="text-white f3" style={{fontSize:"41px"}}><i className="fas fa-file-certificate"></i> Certificate เกียรติบัตร</h2>
-                    <p className="lead text-white f1 fw-bold">ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
+                    <h2 className="text-white f3 text-banner-cer-1"><i className="fas fa-file-certificate" style={{fontSize:"30px"}}></i> Certificate เกียรติบัตร</h2>
+                    <p className="text-white f1 fw-bold text-banner-cer-2">ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
                   </div>
                 </div>
               </div>

@@ -206,6 +206,28 @@ body{
   .vh-75{
     height: 696.75px !important;
   }
+  .text-banner-award-1{
+    font-size: 27px;
+  }
+  .text-banner-award-2{
+    font-size: 41px;
+  }
+  .text-banner-award-3{
+    font-size: 25px;
+  }
+  .text-banner-cer-1{
+    font-size: 35px;
+  }
+  .text-banner-cer-2{
+    font-size: 18px;
+  }
+  .text-banner-act-1{
+    font-size: 41px;
+  }
+  .text-banner-act-2{
+    font-size: 27px;
+  }
+  
 }
 /* sm */
 @media only screen and (min-width: 576px) {
@@ -236,6 +258,28 @@ body{
   .vh-75{
     height: 696.75px !important;
   }
+  .text-banner-award-1{
+    font-size: 27px;
+  }
+  .text-banner-award-2{
+    font-size: 41px;
+  }
+  .text-banner-award-3{
+    font-size: 25px;
+  }
+  .text-banner-cer-1{
+    font-size: 41px;
+  }
+  .text-banner-cer-2{
+    font-size: 18px;
+  }
+  .text-banner-act-1{
+    font-size: 41px;
+  }
+  .text-banner-act-2{
+    font-size: 27px;
+  }
+  
 }
 /* md */
 @media only screen and (min-width: 768px) {
@@ -288,6 +332,28 @@ body{
   .vh-75{
     height: 696.75px !important;
   }
+  .text-banner-award-1{
+    font-size: 27px;
+  }
+  .text-banner-award-2{
+    font-size: 41px;
+  }
+  .text-banner-award-3{
+    font-size: 25px;
+  }
+  .text-banner-cer-1{
+    font-size: 41px;
+  }
+  .text-banner-cer-2{
+    font-size: 18px;
+  }
+  .text-banner-act-1{
+    font-size: 41px;
+  }
+  .text-banner-act-2{
+    font-size: 27px;
+  }
+  
   
 }
 /* lg */
@@ -337,6 +403,28 @@ body{
   .vh-75{
     height: 75vh !important;
   }
+  .text-banner-award-1{
+    font-size: 27px;
+  }
+  .text-banner-award-2{
+    font-size: 41px;
+  }
+  .text-banner-award-3{
+    font-size: 25px;
+  }
+  .text-banner-cer-1{
+    font-size: 41px;
+  }
+  .text-banner-cer-2{
+    font-size: 18px;
+  }
+  .text-banner-act-1{
+    font-size: 41px;
+  }
+  .text-banner-act-2{
+    font-size: 27px;
+  }
+  
   
 }
 /* xl */
@@ -388,6 +476,28 @@ body{
   .vh-75{
     height: 75vh !important;
   }
+  .text-banner-award-1{
+    font-size: 27px;
+  }
+  .text-banner-award-2{
+    font-size: 41px;
+  }
+  .text-banner-award-3{
+    font-size: 25px;
+  }
+  .text-banner-cer-1{
+    font-size: 41px;
+  }
+  .text-banner-cer-2{
+    font-size: 18px;
+  }
+  .text-banner-act-1{
+    font-size: 41px;
+  }
+  .text-banner-act-2{
+    font-size: 27px;
+  }
+  
 }
 /* 4k */
 @media only screen and (min-width: 1921px) {
@@ -438,6 +548,28 @@ body{
     border-radius: 17px;
     margin-top: -81px;
   }
+  .text-banner-award-1{
+    font-size: 27px;
+  }
+  .text-banner-award-2{
+    font-size: 41px;
+  }
+  .text-banner-award-3{
+    font-size: 25px;
+  }
+  .text-banner-cer-1{
+    font-size: 41px;
+  }
+  .text-banner-cer-2{
+    font-size: 18px;
+  }
+  .text-banner-act-1{
+    font-size: 41px;
+  }
+  .text-banner-act-2{
+    font-size: 27px;
+  }
+  
 }
 .bg-dark{
   transition: .5s ease;
@@ -1088,4 +1220,40 @@ a{
 .profile-card-4:hover img {
   filter: grayscale(110%);
   transform: scale(2);
+}
+.progress-title{
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  font-family: 'Poppins', sans-serif !important; 
+}
+.progress-outer{
+  background: #fff;
+  padding: 5px 60px 5px 5px;
+  border: 3px solid #bebfbf;
+  border-radius: 45px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.progress{
+  background: #bebfbf;
+  border-radius: 20px;
+  margin: 0;
+}
+.progress .progress-bar{
+  border-radius: 20px;
+  box-shadow: none;
+  animation: animate-positive 2s;
+}
+.progress .progress-value{
+  font-size: 16px;
+  font-weight: 700;
+  color: #6b7880;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  font-family: 'Poppins', sans-serif !important; 
+}
+@keyframes animate-positive{
+  0%{ width: 0; }
 }

@@ -35,11 +35,12 @@ export default function Aboutme()  {
                     <div className="col-xl-12">
                         <h4 className="f2 f-pink fw-bold mt-5 f-header">About ME</h4>
                     </div>
-                    
+                   
                     <div className="col-xl-3 col-lg-4 col-md-5 animate__animated animate__fadeInLeft">
                         <div className="nav flex-column nav-pills shadow-box" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <button className="nav-link active border-none f-menu-copninich" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><i className="fas fa-user icon-banner"></i>&nbsp;&nbsp;&nbsp;รู้จักกัมปนาท</button>
                             <button className="nav-link border-none f-menu-copninich" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i className="fas fa-school icon-banner"></i>&nbsp;&nbsp;ประวัติการศึกษา</button>
+                            <button className="nav-link border-none f-menu-copninich" id="v-pills-skill-tab" data-bs-toggle="pill" data-bs-target="#v-pills-skill" type="button" role="tab" aria-controls="v-pills-skill" aria-selected="false"><i className="fal fa-swords icon-banner"></i>&nbsp;&nbsp;&nbsp;ทักษะของกัมปนาท</button>
                             <button className="nav-link border-none f-menu-copninich" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i className="fas fa-code icon-banner"></i>&nbsp;&nbsp;การทำงาน</button>
                             <button className="nav-link border-none f-menu-copninich" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i className="fab fa-github icon-banner"></i>&nbsp;&nbsp;&nbsp;GitHub</button>
                             <button className="nav-link border-none f-menu-copninich" id="v-pills-contact-tab" data-bs-toggle="pill" data-bs-target="#v-pills-contact" type="button" role="tab" aria-controls="v-pills-contact" aria-selected="false"><i className="fas fa-user-circle icon-banner"></i>&nbsp;&nbsp;&nbsp;ติดต่อกัมปนาท</button>
@@ -130,7 +131,7 @@ export default function Aboutme()  {
                                                 <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft'}}>
                                                
                                                 <div className="timeline-text">
-                                                    <h6 className="f-education">โรงเรียนยุพราชวิทยาลัย (GPAX 5 Semester : 3.55 )</h6>
+                                                    <h6 className="f-education">โรงเรียนยุพราชวิทยาลัย (GPAX 5 Semester : 3.44)</h6>
                                                     <p className="f-education-detail">Yupparaj Wittayalai School</p>
                                                     <p className="f-education-detail">ห้องเรียนโครงการพิเศษ พสวท.สมทบ</p>
                                                 </div>
@@ -148,6 +149,296 @@ export default function Aboutme()  {
 
                             
 
+                            </div>
+                            <div className="tab-pane fade" id="v-pills-skill" role="tabpanel" aria-labelledby="v-pills-skill-tab">
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-md-6">
+                                            <h4 className="f2 fw-bold">Programing Skill</h4>
+                                            <hr/>
+                                            <h3 className="progress-title">Python</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-danger" style={{width: '75%'}} />
+                                                <div className="progress-value"><span>75</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">C</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '65%'}} />
+                                                <div className="progress-value"><span>65</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">Typescript</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '55%'}} />
+                                                <div className="progress-value"><span>55</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">PHP</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '95%'}} />
+                                                <div className="progress-value"><span>95</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">Go</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '50%'}} />
+                                                <div className="progress-value"><span>50</span>%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="col-md-6">
+                                            <h4 className="f2 fw-bold">Data Science & ML Skill</h4>
+                                            <hr/>
+                                            <h3 className="progress-title">Pandas</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-danger" style={{width: '75%'}} />
+                                                <div className="progress-value"><span>75</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">Numpy</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '65%'}} />
+                                                <div className="progress-value"><span>65</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">FastAI</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '75%'}} />
+                                                <div className="progress-value"><span>75</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">SK-Learn</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '65%'}} />
+                                                <div className="progress-value"><span>65</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">Tensorflow</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '60%'}} />
+                                                <div className="progress-value"><span>60</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">Pytourch</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '60%'}} />
+                                                <div className="progress-value"><span>60</span>%</div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+
+
+                                        <div className="col-md-6 mt-5">
+                                            <h4 className="f2 fw-bold">Basic Web Development Skill</h4>
+                                            <hr/>
+                                            <h3 className="progress-title">HTML</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-danger" style={{width: '100%'}} />
+                                                <div className="progress-value"><span>100</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">Pure CSS</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '85%'}} />
+                                                <div className="progress-value"><span>85</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">CSS Framework (Bootstrap,Material)</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '95%'}} />
+                                                <div className="progress-value"><span>95</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">Javascript for website</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '75%'}} />
+                                                <div className="progress-value"><span>75</span>%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="col-md-6 mt-5">
+                                            <h4 className="f2 fw-bold">Advance Web Development Skill</h4>
+                                            <hr/>
+                                            <h3 className="progress-title">PHP for web development (LAMP Stack)</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-danger" style={{width: '95%'}} />
+                                                <div className="progress-value"><span>95</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">Next.js x TypeScript (React.js Framework)</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '75%'}} />
+                                                <div className="progress-value"><span>75</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">Django</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '75%'}} />
+                                                <div className="progress-value"><span>75</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">Node.js (ejs)</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '65%'}} />
+                                                <div className="progress-value"><span>65</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">React.js</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '65%'}} />
+                                                <div className="progress-value"><span>65</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">Go lang for web development</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '50%'}} />
+                                                <div className="progress-value"><span>50</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">Laravel (PHP Framework)</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '50%'}} />
+                                                <div className="progress-value"><span>50</span>%</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="col-md-12 mt-5">
+                                            <h4 className="f2 fw-bold">Database Skill</h4>
+                                            <hr/>
+                                            <h3 className="progress-title">MySQL</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-danger" style={{width: '85%'}} />
+                                                <div className="progress-value"><span>85</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">PostgreSQL</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '75%'}} />
+                                                <div className="progress-value"><span>75</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">Firebase</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '50%'}} />
+                                                <div className="progress-value"><span>50</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">MongoDB</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '40%'}} />
+                                                <div className="progress-value"><span>40</span>%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="col-md-12 mt-5">
+                                            <h4 className="f2 fw-bold">Cloud Server Skill</h4>
+                                            <hr/>
+                                            <h3 className="progress-title">Google Cloud Platform</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-danger" style={{width: '65%'}} />
+                                                <div className="progress-value"><span>65</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">Linux Server</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '65%'}} />
+                                                <div className="progress-value"><span>65</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">Web Security</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '55%'}} />
+                                                <div className="progress-value"><span>55</span>%</div>
+                                                </div>
+                                            </div>
+                                          
+                                        </div>
+                                        <div className="col-md-12 mt-5">
+                                            <h4 className="f2 fw-bold">Other Skill</h4>
+                                            <hr/>
+                                            <h3 className="progress-title">Linux Command Line</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-danger" style={{width: '75%'}} />
+                                                <div className="progress-value"><span>75</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">3D Sketchup</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-danger" style={{width: '65%'}} />
+                                                <div className="progress-value"><span>65</span>%</div>
+                                                </div>
+                                            </div>
+                                            <h3 className="progress-title">Graphic</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '85%'}} />
+                                                <div className="progress-value"><span>85</span>%</div>
+                                                </div>
+                                            </div>
+
+                                            <h3 className="progress-title">Video Editor</h3>
+                                            <div className="progress-outer">
+                                                <div className="progress">
+                                                <div className="progress-bar progress-bar-striped progress-bar-info" style={{width: '75%'}} />
+                                                <div className="progress-value"><span>75</span>%</div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
                             <div className="tab-pane fade  mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                                     <div className="col-xl-12">

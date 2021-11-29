@@ -41,8 +41,8 @@ export default function AllAwardsPage() {
               <div className="row">
                 <div className="col-12 mx-auto">
                   <div className="row text-center">
-                    <h2 className="text-white f3" style={{fontSize:"41px"}}><i className="fas fa-map-marker-edit"></i> Activity กิจกรรม</h2>
-                    <p className="lead text-white f1 fw-bold">ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
+                    <h2 className="text-white f3 text-banner-act-1"><i className="fas fa-map-marker-edit"></i> Activity กิจกรรม</h2>
+                    <p className="lead text-white f1 fw-bold text-banner-act-2">ตั้งแต่ระดับชั้นมัธยมศึกษาปีที่ 4 ถึง ชั้นมัธยมศึกษาปีที่ 6 (ปีการศึกษา 2562-2564)</p>
                   </div>
                 </div>
               </div>
