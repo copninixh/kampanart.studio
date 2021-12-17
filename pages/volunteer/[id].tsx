@@ -40,7 +40,8 @@ export default function EditEntryPage() {
                             <img src={data.v_pic} className="img-fluid w-xl-50" />
                           </div>
            
-                          <p className="f1" style={{fontSize:"16px"}}>{data.v_detail}</p>   
+                          <p className="f1" style={{fontSize:"16px"}}>{data.v_detail}</p>
+                          <a href={data.v_ref} className="btn-custom mb-3">ดาวน์โหลดเอกสาร</a>
                           <object data={data.v_ref} type="application/pdf" style={{minHeight: '100vh', width: '100%'}}>
                           </object>
                       </div>
