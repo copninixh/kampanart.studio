@@ -479,10 +479,271 @@ body{
     justify-content: center;
     align-items: center;
   }
+}
+/* 1000 */
+@media only screen and (min-width: 1000px) {
+  .text-quote{
+    font-family: "FC-Friday" !important;
+    font-size: 35px !important;
+    color: #e5789f;
+    text-align: center;
+    margin-bottom: 1px;
+  }
+  .text-parallax{
+    font-size: 25.5px;
+    font-family: "FC-Friday" !important;
+    color: white;
+    text-align: center !important;
+    font-weight: normal;
+  }
+  .img-signature{
+    width: 25%;
+  }
+  .banner-font1{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 37px;
+    margin-top: 226px;
+  }
+  .banner-font2{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 21px;
+  }
+  .banner-font3{
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 246px;
+  }
+  .banner-font4{
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .banner-font5{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px
+  }
+  .img-teacher{
+    width: 60%;
+  }
+  .status_github{
+    border-radius: 17px;
+    margin-top: -81px;
+  }
+  .vh-75{
+    height: 75vh !important;
+  }
+  .text-banner-award-1{
+    font-size: 27px;
+  }
+  .text-banner-award-2{
+    font-size: 41px;
+  }
+  .text-banner-award-3{
+    font-size: 25px;
+  }
+  .text-banner-cer-1{
+    font-size: 41px;
+  }
+  .text-banner-cer-2{
+    font-size: 18px;
+  }
+  .text-banner-act-1{
+    font-size: 41px;
+  }
+  .text-banner-act-2{
+    font-size: 27px;
+  }
+  .img-detail-page{
+    width: 85%;
+  }
+  .parallax {
+    background-image: url("../public/assets/img/cop/cop_parallax.jpg");
+    min-height: 397px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
 }
+
 /* xl */
 @media only screen and (min-width: 1200px) {
+  .text-quote{
+    font-family: "FC-Friday" !important;
+    font-size: 37px !important;
+    color: #e5789f;
+    text-align: center;
+    margin-bottom: 1px;
+  }
+  .text-parallax{
+    font-size: 27.5px;
+    font-family: "FC-Friday" !important;
+    color: white;
+    text-align: center !important;
+  }
+  .img-signature{
+    width: 25%;
+  }
+  .banner-font1{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 51px;
+    margin-top: 206px;
+  }
+
+  .banner-font2{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  .banner-font3{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 26px;
+    margin-top: 286px;
+  }
+  .banner-font4{
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .banner-font5{
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .img-teacher{
+    width: 30%;
+  }
+  .status_github{
+    border-radius: 17px;
+    margin-top: -81px;
+  }
+  .vh-75{
+    height: 75vh !important;
+  }
+  .text-banner-award-1{
+    font-size: 27px;
+  }
+  .text-banner-award-2{
+    font-size: 41px;
+  }
+  .text-banner-award-3{
+    font-size: 25px;
+  }
+  .text-banner-cer-1{
+    font-size: 41px;
+  }
+  .text-banner-cer-2{
+    font-size: 18px;
+  }
+  .text-banner-act-1{
+    font-size: 41px;
+  }
+  .text-banner-act-2{
+    font-size: 27px;
+  }
+  .img-detail-page{
+    width: 75% !important;
+  }
+  .parallax {
+    background-image: url("../public/assets/img/cop/cop_parallax.jpg");
+    min-height: 397px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+/* 1366 */
+
+@media only screen and (min-width: 1300px) {
+  .text-quote{
+    font-family: "FC-Friday" !important;
+    font-size: 37px !important;
+    color: #e5789f;
+    text-align: center;
+    margin-bottom: 1px;
+  }
+  .text-parallax{
+    font-size: 27.5px;
+    font-family: "FC-Friday" !important;
+    color: white;
+    text-align: center !important;
+  }
+  .img-signature{
+    width: 25%;
+  }
+  .banner-font1{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 51px;
+    margin-top: 216px;
+  }
+
+  .banner-font2{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  .banner-font3{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 26px;
+    margin-top: 326px;
+  }
+  .banner-font4{
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .banner-font5{
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .img-teacher{
+    width: 30%;
+  }
+  .status_github{
+    border-radius: 17px;
+    margin-top: -81px;
+  }
+  .vh-75{
+    height: 75vh !important;
+  }
+  .text-banner-award-1{
+    font-size: 27px;
+  }
+  .text-banner-award-2{
+    font-size: 41px;
+  }
+  .text-banner-award-3{
+    font-size: 25px;
+  }
+  .text-banner-cer-1{
+    font-size: 41px;
+  }
+  .text-banner-cer-2{
+    font-size: 18px;
+  }
+  .text-banner-act-1{
+    font-size: 41px;
+  }
+  .text-banner-act-2{
+    font-size: 27px;
+  }
+  .img-detail-page{
+    width: 75% !important;
+  }
+  .parallax {
+    background-image: url("../public/assets/img/cop/cop_parallax.jpg");
+    min-height: 397px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+/* full hd */
+@media only screen and (min-width: 1400px) {
   .text-quote{
     font-family: "FC-Friday" !important;
     font-size: 37px !important;
@@ -567,6 +828,7 @@ body{
   }
   
 }
+
 /* 4k */
 @media only screen and (min-width: 1921px) {
   .text-quote{
