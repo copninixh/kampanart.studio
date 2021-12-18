@@ -14,7 +14,7 @@ function Activities({ activityall }) {
                   <a href={`/activities/${e.a_id}`} key={e.a_id}>
                     <div className="col-xxl-12 col-xl-12 image-box">
                       <div className="image-activities-page">
-                        <img className="img-fluid image-detail image-activities-radius" loading="lazy" data-src={e.a_pic}  />
+                        <img className="img-fluid image-detail image-activities-radius" loading="lazy" src={e.a_pic}  />
                         
                       </div>
                     </div>

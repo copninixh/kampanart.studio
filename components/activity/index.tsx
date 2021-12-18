@@ -13,7 +13,7 @@ function Activities({ activity }) {
                 <div className="col-xl-6 col-lg-6 mb-3">
                   <a href={`/activities/${e.a_id}`} key={e.a_id}>
                     <div className="card move-on-hover">
-                      <img className="w-100 img-activity" src={e.a_pic}  />
+                      <img className="w-100 img-activity" loading="lazy" src={e.a_pic}  />
                     </div>
                     <div className="mt-2 ms-2">
                       <h6 className="mb-0 f1 fw-bold f-activity-detail">{e.a_name}</h6>

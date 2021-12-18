@@ -74,7 +74,7 @@ export default class Quote extends Component {
                     </div>
 
                     <div className="col-xxl-5 col-md-12">
-                        <img src="../assets/img/cop/cop_self.jpg" className="img-fluid w-100"></img>
+                        <img src="../assets/img/cop/cop_self.jpg" className="img-fluid w-100" loading="lazy"></img>
                     </div>
                 </div>
             </div>

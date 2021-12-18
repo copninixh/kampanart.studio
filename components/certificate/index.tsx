@@ -10,7 +10,7 @@ function Certified ({ cer }) {
           {cer.map((e) => (
             <div className="col-xl-3 col-lg-3 col-md-6 mb-3">
               <div className="card h-100" key={e.c_id}>
-                <img src={e.c_pic} className="card-img-top h-50"/>
+                <img src={e.c_pic} className="card-img-top h-50" loading="lazy" />
                 <div className="card-body">
                   <h5 className="card-title f1 fw-bold text-center"><i className="fad fa-file-certificate"></i> {e.c_name}</h5>
                   <p className="card-text text-center">จัดโดย :  {e.c_org}</p>

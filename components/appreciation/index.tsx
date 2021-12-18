@@ -14,7 +14,7 @@ function Appreciation ({ appre }) {
                     <div className="" key={e.a_id}>
                         <div className="p-0 mx-3 mt-3 position-relative z-index-1">
                             <a href={`/recommendation/${e.a_id}`} className="d-block">
-                            <img src={e.a_pic} className="img-fluid rounded-circle" />
+                            <img src={e.a_pic} className="img-fluid rounded-circle" loading="lazy" />
                             </a>
                         </div>
                         <div className="pt-2">

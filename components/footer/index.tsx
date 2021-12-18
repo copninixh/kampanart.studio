@@ -12,7 +12,7 @@ export default class Footer extends Component {
                             <br/>
                             ที่สร้างความเปลี่ยนแปลงและมี effect ที่ดีให้กับสังคมได้
                             </p>
-                            <img src="../assets/img/cop/03.png" className="img-fluid img-center img-signature mb-5"/>
+                            <img src="../assets/img/cop/03.png" className="img-fluid img-center img-signature mb-5" loading="lazy"/>
 
                         </div>
                     </div>
