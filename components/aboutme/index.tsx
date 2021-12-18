@@ -54,7 +54,7 @@ export default function Aboutme()  {
                                     <div className="col-xl-4 col-lg-4 col-md-12">
                                         {/* <img src="../assets/img/cop/cop.png" className="img-fluid w-100" /> */}
                                         <Image
-                                            data-src={Cop}
+                                            src={Cop}
                                             className="img-fluid w-100"
                                             loading="lazy"
                                         />
