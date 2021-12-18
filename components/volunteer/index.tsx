@@ -10,7 +10,7 @@ function Volun({ volunt }) {
             <div className="row mt-6">
           {volunt.map((e) => (
           
-          <div className="col-lg-4 col-md-8">
+          <div className="col-lg-4 col-md-12">
             <div className="card card-plain h-75">
               <div className="card-body">
                 <div className="author">
