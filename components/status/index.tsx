@@ -36,7 +36,7 @@ export default function Status() {
              
                 
              
-                    <div className="container bg-pink py-4 status_github d-none d-xxl-block d-xl-block d-lg-block d-md-block">
+                    <div className="container bg-pink py-4 status_github d-none d-xxl-block d-xl-block">
                         <div className="row">
                             <div className="col-xl-3 col-md-3 text-center">
                                 <h1 className="num_status">{userName}</h1>

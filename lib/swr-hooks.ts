@@ -120,3 +120,20 @@ export function useAppre(id: string) {
 }
 
 
+//load data index
+export function useUsedProject () {
+  const { data, error } = useSWR(`/api/get-project`, fetcher)
+
+  return {
+    usedproject: data,
+    isLoading: !error && !data,
+    isError: error,
+  }
+}
+
+// load data get id page
+export function useUsedPro(id: string) {
+  return useSWR(`/api/get-project-detail?id=${id}`, fetcher)
+}
+
+

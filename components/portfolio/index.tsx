@@ -1,10 +1,11 @@
 import {Component} from 'react'
 import Script from 'next/script'
-import { useAwards , useActivty , useCertificate , useVolunteer} from '@/lib/swr-hooks'
+import { useAwards , useActivty , useCertificate , useVolunteer , useUsedProject} from '@/lib/swr-hooks'
 import AwardPage from '@/components/awards'
 import ActivityPage from '@/components/activity'
 import CertificatePage from '@/components/certificate'
 import VolunteerPage from '@/components/volunteer'
+import Project from '@/components/project'
 
 
 export default function Portfolio() {
@@ -12,6 +13,7 @@ export default function Portfolio() {
   const { activity } = useActivty()
   const { cer } = useCertificate()
   const { volunt } =  useVolunteer()
+  const { usedproject } = useUsedProject()
   
    
         return(
@@ -56,7 +58,7 @@ export default function Portfolio() {
                           <VolunteerPage volunt={volunt} />
                         </div>
                         <div className="tab-pane fade" id="pills-used" role="tabpanel" aria-labelledby="pills-used-tab">
-
+                          <Project rpro={usedproject} />
                         </div>
                       </div>
                   </div>

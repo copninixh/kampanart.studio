@@ -31,7 +31,7 @@ function Activities({ activity }) {
               <div className="position-sticky" style={{top: '100px !important'}}>
                 <h4 className="f3 text-center" style={{fontSize:'27px'}}>เพราะชีวิตไม่ได้มีแค่<u>การเรียน</u> ความรู้ ประสบการณ์ <br/>นอกห้องเรียน ของ <br/> "นายกัมปนาท ชัยมูลฐาน"</h4>
                 <h6 className="text-secondary font-weight-normal f3 text-center"  style={{fontSize:'25px'}}>ตลอดชีวิตมัธยมศึกษาตอนปลาย</h6>
-                <p className="text-center"><a href="all_activities" className="btn btn-primary">ดูทั้งหมด <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" /></a></p>
+                <p className="text-center"><a href="all_activities" className="btn-custom w-100">ดูทั้งหมด <i className="fas fa-arrow-right text-xs ms-1" aria-hidden="true" /></a></p>
               </div>
 
 
